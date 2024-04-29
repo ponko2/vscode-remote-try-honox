@@ -1,0 +1,9 @@
+.dev.vars
+.hono
+.wrangler
+bun.lockb
+dist
+node_modules
+package-lock.json
+wrangler.toml
+yarn.lock
