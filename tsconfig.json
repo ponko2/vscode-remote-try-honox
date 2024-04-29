@@ -1,12 +1,14 @@
 {
+  "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "strict": true,
-    "lib": ["ESNext", "DOM"],
     "types": ["vite/client", "@cloudflare/workers-types"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
-  }
+    "noEmit": true
+  },
+  "include": ["app"]
 }

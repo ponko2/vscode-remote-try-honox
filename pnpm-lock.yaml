@@ -33,6 +33,9 @@ importers:
       '@hono/vite-dev-server':
         specifier: ^0.12.0
         version: 0.12.0(hono@4.3.1)
+      '@tsconfig/strictest':
+        specifier: ^2.0.5
+        version: 2.0.5
       husky:
         specifier: ^9.0.11
         version: 9.0.11
@@ -42,6 +45,9 @@ importers:
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.2
+      typescript:
+        specifier: ^5.4.5
+        version: 5.4.5
       vite:
         specifier: ^5.2.11
         version: 5.2.11(@types/node@20.12.8)
@@ -689,6 +695,9 @@ packages:
     resolution: {integrity: sha512-TGGO7v7qOq4CYmSBVEYpI1Y5xDuCEnbVC5Vth8mOsW0gDSzxNrVERPc790IGHsrT2dQSimgMr9Ub3Y1Jci5/8w==}
     cpu: [x64]
     os: [win32]
+
+  '@tsconfig/strictest@2.0.5':
+    resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
 
   '@types/conventional-commits-parser@5.0.0':
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
@@ -2273,6 +2282,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.17.2':
     optional: true
+
+  '@tsconfig/strictest@2.0.5': {}
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
