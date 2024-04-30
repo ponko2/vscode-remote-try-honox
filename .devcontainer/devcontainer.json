@@ -22,7 +22,11 @@
       "settings": {},
 
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["EditorConfig.EditorConfig", "biomejs.biome"]
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "biomejs.biome",
+        "bradlc.vscode-tailwindcss"
+      ]
     }
   }
 
