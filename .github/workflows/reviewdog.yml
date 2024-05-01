@@ -22,3 +22,23 @@ jobs:
           fail_on_error: true
           level: error
           tool_name: Biome
+  prisma:
+    name: Prisma
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install
+      - run: pnpm exec prisma format
+      - run: pnpm exec prisma-case-format --file prisma/schema.prisma
+      - uses: reviewdog/action-suggester@v1
+        with:
+          fail_on_error: true
+          level: error
+          tool_name: Prisma

@@ -19,5 +19,6 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
+      - run: pnpm run generate
       - run: pnpm run build
       - run: pnpm run lint

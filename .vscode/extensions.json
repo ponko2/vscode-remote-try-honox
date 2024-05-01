@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
+    "Prisma.prisma",
     "biomejs.biome",
     "bradlc.vscode-tailwindcss",
     "ms-vscode-remote.vscode-remote-extensionpack"

@@ -1,9 +1,12 @@
 .dev.vars
+.env
 .hono
 .wrangler
 bun.lockb
 dist
 node_modules
 package-lock.json
+prisma/dev.db
+prisma/dev.db-journal
 wrangler.toml
 yarn.lock
