@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@hono/zod-validator':
+        specifier: ^0.2.1
+        version: 0.2.1(hono@4.3.1)(zod@3.23.6)
       '@prisma/client':
         specifier: ^5.13.0
         version: 5.13.0(prisma@5.13.0)
@@ -26,6 +29,9 @@ importers:
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
+      zod:
+        specifier: ^3.23.6
+        version: 3.23.6
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.7.2
@@ -627,6 +633,12 @@ packages:
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
+
+  '@hono/zod-validator@0.2.1':
+    resolution: {integrity: sha512-HFoxln7Q6JsE64qz2WBS28SD33UB2alp3aRKmcWnNLDzEL1BLsWfbdX6e1HIiUprHYTIXf5y7ax8eYidKUwyaA==}
+    peerDependencies:
+      hono: '>=3.9.0'
+      zod: ^3.19.1
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -3192,6 +3204,11 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
+
+  '@hono/zod-validator@0.2.1(hono@4.3.1)(zod@3.23.6)':
+    dependencies:
+      hono: 4.3.1
+      zod: 3.23.6
 
   '@isaacs/cliui@8.0.2':
     dependencies:
