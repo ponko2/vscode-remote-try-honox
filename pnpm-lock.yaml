@@ -24,8 +24,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2
       honox:
-        specifier: ^0.1.15
-        version: 0.1.15(hono@4.3.2)
+        specifier: ^0.1.16
+        version: 0.1.16(hono@4.3.2)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -618,12 +618,6 @@ packages:
 
   '@hono/vite-cloudflare-pages@0.2.5':
     resolution: {integrity: sha512-/Cw4bREPf2OelHDc/2oVXYXemyKz+wXkC+5uK8ZLo8c2JV7vthSchQPWK7O6BGe7al0z5qKVqhTYkfZvuW0T5w==}
-    engines: {node: '>=18.14.1'}
-    peerDependencies:
-      hono: '*'
-
-  '@hono/vite-dev-server@0.11.1':
-    resolution: {integrity: sha512-maTukjHPH19XVyE9zU7bBFg3WIiiKrJ5sFa3GMDJxJFKn16sAT1X5IIYJgXSGCb5hWiIJRU+sE/ybuIzb6qlBg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -1554,8 +1548,8 @@ packages:
     resolution: {integrity: sha512-wiZcF5N06tc232U11DnqW6hP8DNoypjsrxslKXfvOqOAkTdh7K1HLZJH/92Mf+urxUTGi96f1w4xx/1Qozoqiw==}
     engines: {node: '>=16.0.0'}
 
-  honox@0.1.15:
-    resolution: {integrity: sha512-JuOaNV23sACgJxcQHK/ALur4eefDbM+honglAvRjK8F0pv8iPelXYbGg6Qyvhm1Ws1wt5QfnOV3JJOOSMgMSlA==}
+  honox@0.1.16:
+    resolution: {integrity: sha512-+33+c1cQBM7yl8YFYVKf2XAlMWYbhrsNvIyGUkcVep09Fk/c9O39aiCENze9nzRHYgooAvV60517JWwuKNdD1w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '>=4.*'
@@ -1737,6 +1731,9 @@ packages:
 
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
+
+  jsonc-parser@3.2.1:
+    resolution: {integrity: sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==}
 
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
@@ -3183,17 +3180,6 @@ snapshots:
     dependencies:
       hono: 4.3.2
 
-  '@hono/vite-dev-server@0.11.1(hono@4.3.2)':
-    dependencies:
-      '@hono/node-server': 1.11.1
-      hono: 4.3.2
-      miniflare: 3.20240419.0
-      minimatch: 9.0.4
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
-
   '@hono/vite-dev-server@0.12.0(hono@4.3.2)':
     dependencies:
       '@hono/node-server': 1.11.1
@@ -4293,14 +4279,15 @@ snapshots:
 
   hono@4.3.2: {}
 
-  honox@0.1.15(hono@4.3.2):
+  honox@0.1.16(hono@4.3.2):
     dependencies:
       '@babel/generator': 7.24.5
       '@babel/parser': 7.24.5
       '@babel/traverse': 7.24.5
       '@babel/types': 7.24.5
-      '@hono/vite-dev-server': 0.11.1(hono@4.3.2)
+      '@hono/vite-dev-server': 0.12.0(hono@4.3.2)
       hono: 4.3.2
+      jsonc-parser: 3.2.1
       precinct: 12.1.1
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu': 4.17.2
@@ -4440,6 +4427,8 @@ snapshots:
   json-parse-even-better-errors@3.0.2: {}
 
   json-schema-traverse@1.0.0: {}
+
+  jsonc-parser@3.2.1: {}
 
   jsonfile@6.1.0:
     dependencies:
