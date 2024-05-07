@@ -33,7 +33,7 @@
     "vite": "^5.2.11",
     "wrangler": "^3.53.1"
   },
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.0",
   "private": true,
   "scripts": {
     "build": "tsc --noEmit && vite build --mode client && vite build",
