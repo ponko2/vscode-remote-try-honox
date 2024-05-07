@@ -20,7 +20,7 @@
     "@hono/vite-dev-server": "^0.12.0",
     "@tsconfig/strictest": "^2.0.5",
     "autoprefixer": "^10.4.19",
-    "dotenv-cli": "^7.4.1",
+    "dotenv-cli": "^7.4.2",
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.2",
