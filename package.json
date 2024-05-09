@@ -36,7 +36,8 @@
   "packageManager": "pnpm@9.1.0",
   "private": true,
   "scripts": {
-    "build": "tsc --noEmit && vite build --mode client && vite build",
+    "build": "vite build --mode client && vite build",
+    "compile": "tsc --noEmit",
     "deploy": "$npm_execpath run build && wrangler pages deploy ./dist",
     "dev": "vite",
     "env": "dotenv -e .dev.vars",
