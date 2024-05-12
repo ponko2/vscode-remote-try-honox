@@ -24,8 +24,8 @@ importers:
         specifier: ^4.3.4
         version: 4.3.4
       honox:
-        specifier: ^0.1.16
-        version: 0.1.16(hono@4.3.4)
+        specifier: ^0.1.17
+        version: 0.1.17(hono@4.3.4)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -624,6 +624,12 @@ packages:
 
   '@hono/vite-dev-server@0.12.0':
     resolution: {integrity: sha512-FJIMuTNfJaL7VjktNfqthFMqRyasXPgeMrS2wKKkDEzaLhlRmllC0bajPGrwH+xRQsTJxD/y6ttjg0x6dJeoMw==}
+    engines: {node: '>=18.14.1'}
+    peerDependencies:
+      hono: '*'
+
+  '@hono/vite-dev-server@0.12.1':
+    resolution: {integrity: sha512-Fm7BXm9onjEaU5OqkLhU4pkdBKenlulrExDSkBxXULF+7NQznHppWnKcDI6A0pvjz0oNykNy5F7QnHhofmnMdQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -1548,8 +1554,8 @@ packages:
     resolution: {integrity: sha512-oh+PBwW8yElj3bUlY2dTXhuPt1MCZp6Nb04tejLwY+GXdphQH6uCpUP0dY5iLvFY5wM8fNHrMx1QeMKbhnzw9w==}
     engines: {node: '>=16.0.0'}
 
-  honox@0.1.16:
-    resolution: {integrity: sha512-+33+c1cQBM7yl8YFYVKf2XAlMWYbhrsNvIyGUkcVep09Fk/c9O39aiCENze9nzRHYgooAvV60517JWwuKNdD1w==}
+  honox@0.1.17:
+    resolution: {integrity: sha512-wgC6EmvWc6GGwAGvDcZE1WSJzXNlB+tGWFe7OtIz7t1dZ+L7q+OKgaX6FPTVTMJab0C78dfofNPfkvN1RolNrQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '>=4.*'
@@ -3189,6 +3195,17 @@ snapshots:
       - supports-color
       - utf-8-validate
 
+  '@hono/vite-dev-server@0.12.1(hono@4.3.4)':
+    dependencies:
+      '@hono/node-server': 1.11.1
+      hono: 4.3.4
+      miniflare: 3.20240419.1
+      minimatch: 9.0.4
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+
   '@hono/zod-validator@0.2.1(hono@4.3.4)(zod@3.23.8)':
     dependencies:
       hono: 4.3.4
@@ -4277,13 +4294,13 @@ snapshots:
 
   hono@4.3.4: {}
 
-  honox@0.1.16(hono@4.3.4):
+  honox@0.1.17(hono@4.3.4):
     dependencies:
       '@babel/generator': 7.24.5
       '@babel/parser': 7.24.5
       '@babel/traverse': 7.24.5
       '@babel/types': 7.24.5
-      '@hono/vite-dev-server': 0.12.0(hono@4.3.4)
+      '@hono/vite-dev-server': 0.12.1(hono@4.3.4)
       hono: 4.3.4
       jsonc-parser: 3.2.1
       precinct: 12.1.1
