@@ -38,3 +38,7 @@ updates:
       commitlint:
         patterns:
           - "@commitlint/*"
+      prisma:
+        patterns:
+          - "@prisma/*"
+          - prisma
