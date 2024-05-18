@@ -2,10 +2,10 @@ import { cva } from "class-variance-authority";
 import { useRequestContext } from "hono/jsx-renderer";
 import TodoButton from "../islands/TodoButton";
 
-type Props = {
+interface Props {
   completedTodosCount: number;
   todosCount: number;
-};
+}
 
 function CompletedForm() {
   return (

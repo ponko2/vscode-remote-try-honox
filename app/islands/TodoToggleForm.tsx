@@ -1,6 +1,8 @@
 import { cn } from "../lib/utils";
 
-type Props = { checked: boolean };
+interface Props {
+  checked: boolean;
+}
 
 export default function TodoToggleForm({ checked }: Props) {
   return (

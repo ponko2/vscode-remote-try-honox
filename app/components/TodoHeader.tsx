@@ -2,10 +2,10 @@ import TodoCreateForm from "../islands/TodoCreateForm";
 import TodoToggleForm from "../islands/TodoToggleForm";
 import { cn } from "../lib/utils";
 
-type Props = {
+interface Props {
   completedTodosCount: number;
   todosCount: number;
-};
+}
 
 export default function TodoHeader({ completedTodosCount, todosCount }: Props) {
   return (

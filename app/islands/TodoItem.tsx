@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "hono/jsx";
 import { cn } from "../lib/utils";
 import TodoButton from "./TodoButton";
 
-type Props = {
+interface Props {
   todo: Todo;
-};
+}
 
 function UpdateForm({
   todo,
