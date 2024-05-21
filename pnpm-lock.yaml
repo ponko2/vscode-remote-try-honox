@@ -24,8 +24,8 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9
       honox:
-        specifier: ^0.1.17
-        version: 0.1.17(hono@4.3.9)
+        specifier: ^0.1.18
+        version: 0.1.18(hono@4.3.9)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -1552,8 +1552,8 @@ packages:
     resolution: {integrity: sha512-6c5LVE23HnIS8iBhY+XPmYJlPeeClznOi7mBNsAsJCgxo8Ciz75LTjqRUf5wv4RYq8kL+1KPLUZHCtKmbZssNg==}
     engines: {node: '>=16.0.0'}
 
-  honox@0.1.17:
-    resolution: {integrity: sha512-wgC6EmvWc6GGwAGvDcZE1WSJzXNlB+tGWFe7OtIz7t1dZ+L7q+OKgaX6FPTVTMJab0C78dfofNPfkvN1RolNrQ==}
+  honox@0.1.18:
+    resolution: {integrity: sha512-4PjVcTVFqYwLHMJPPkalztRYPOYZY4f9dnWwpUouJAj3w4CQrppljPMpFafaYjHQgD+fP96mmnv02txakxXGmA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '>=4.*'
@@ -4282,7 +4282,7 @@ snapshots:
 
   hono@4.3.9: {}
 
-  honox@0.1.17(hono@4.3.9):
+  honox@0.1.18(hono@4.3.9):
     dependencies:
       '@babel/generator': 7.24.5
       '@babel/parser': 7.24.5
