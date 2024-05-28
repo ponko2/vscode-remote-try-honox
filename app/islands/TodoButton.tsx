@@ -1,6 +1,7 @@
+import type { JSX } from "hono/jsx/jsx-runtime";
 import { cn } from "../lib/utils";
 
-type Props = Hono.ButtonHTMLAttributes;
+type Props = JSX.IntrinsicElements["button"];
 
 export default function TodoButton({
   class: className,
