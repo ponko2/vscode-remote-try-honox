@@ -1,4 +1,5 @@
 import pages from "@hono/vite-cloudflare-pages";
+import adapter from "@hono/vite-dev-server/cloudflare";
 import honox from "honox/vite";
 import client from "honox/vite/client";
 import { type SSROptions, defineConfig } from "vite";
@@ -14,9 +15,6 @@ export default defineConfig(({ mode }) => {
       build: {
         rollupOptions: {
           input: ["/app/style.css"],
-          output: {
-            assetFileNames: "static/assets/[name].[ext]",
-          },
         },
       },
       plugins: [client()],
@@ -24,6 +22,13 @@ export default defineConfig(({ mode }) => {
   }
   return {
     ssr,
-    plugins: [honox(), pages()],
+    plugins: [
+      honox({
+        devServer: {
+          adapter,
+        },
+      }),
+      pages(),
+    ],
   };
 });

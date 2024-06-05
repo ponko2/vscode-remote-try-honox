@@ -38,7 +38,7 @@
   "scripts": {
     "build": "vite build --mode client && vite build",
     "compile": "tsc --noEmit",
-    "deploy": "$npm_execpath run build && wrangler pages deploy ./dist",
+    "deploy": "$npm_execpath run build && wrangler pages deploy",
     "dev": "vite",
     "env": "dotenv -e .dev.vars",
     "fix": "run-s fix:biome fix:prisma-case fix:prisma",
@@ -48,7 +48,7 @@
     "generate": "prisma generate",
     "lint": "biome check",
     "prepare": "is-ci || husky",
-    "preview": "wrangler pages dev ./dist",
+    "preview": "wrangler pages dev",
     "setup": "corepack enable pnpm"
   },
   "type": "module"
