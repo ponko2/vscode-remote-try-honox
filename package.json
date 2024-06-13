@@ -30,7 +30,7 @@
     "prisma-case-format": "^2.2.1",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5",
-    "vite": "^5.2.13",
+    "vite": "^5.3.0",
     "wrangler": "^3.60.2"
   },
   "packageManager": "pnpm@9.3.0",
