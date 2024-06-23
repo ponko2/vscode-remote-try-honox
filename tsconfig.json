@@ -10,5 +10,5 @@
     "types": ["vite/client", "@cloudflare/workers-types"],
     "noEmit": true
   },
-  "include": ["app"]
+  "include": ["**/*.ts", "**/*.tsx"]
 }
