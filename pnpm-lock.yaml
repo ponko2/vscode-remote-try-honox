@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.2.2
-        version: 0.2.2(hono@4.4.9)(zod@3.23.8)
+        version: 0.2.2(hono@4.4.10)(zod@3.23.8)
       '@prisma/client':
         specifier: ^5.16.1
         version: 5.16.1(prisma@5.16.1)
@@ -21,11 +21,11 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       hono:
-        specifier: ^4.4.9
-        version: 4.4.9
+        specifier: ^4.4.10
+        version: 4.4.10
       honox:
         specifier: ^0.1.23
-        version: 0.1.23(hono@4.4.9)
+        version: 0.1.23(hono@4.4.10)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -47,10 +47,10 @@ importers:
         version: 19.2.2
       '@hono/vite-cloudflare-pages':
         specifier: ^0.4.1
-        version: 0.4.1(hono@4.4.9)
+        version: 0.4.1(hono@4.4.10)
       '@hono/vite-dev-server':
         specifier: ^0.12.2
-        version: 0.12.2(hono@4.4.9)
+        version: 0.12.2(hono@4.4.10)
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -1591,8 +1591,8 @@ packages:
   header-case@2.0.4:
     resolution: {integrity: sha512-H/vuk5TEEVZwrR0lp2zed9OCo1uAILMlx0JEMgC26rzyJJ3N1v6XkwHHXJQdR2doSjcGPM6OKPYoJgf0plJ11Q==}
 
-  hono@4.4.9:
-    resolution: {integrity: sha512-VW1hnYipHL/XsnSYiCTLJ+Z7iisZYWwSOiKXm9RBV2NKPxNqjfaHqeMFiDl11fK893ofmErvRpX20+FTNjZIjA==}
+  hono@4.4.10:
+    resolution: {integrity: sha512-z6918u9rXRU5CCisMHd2uUVoQXcNyUrUMmYY7VH10v4HJG7+hqgMK/G8YNTd13C6s4rBfzF09iz8VpOip9qG3A==}
     engines: {node: '>=16.0.0'}
 
   honox@0.1.23:
@@ -3249,14 +3249,14 @@ snapshots:
 
   '@hono/node-server@1.11.3': {}
 
-  '@hono/vite-cloudflare-pages@0.4.1(hono@4.4.9)':
+  '@hono/vite-cloudflare-pages@0.4.1(hono@4.4.10)':
     dependencies:
-      hono: 4.4.9
+      hono: 4.4.10
 
-  '@hono/vite-dev-server@0.12.2(hono@4.4.9)':
+  '@hono/vite-dev-server@0.12.2(hono@4.4.10)':
     dependencies:
       '@hono/node-server': 1.11.3
-      hono: 4.4.9
+      hono: 4.4.10
       miniflare: 3.20240610.0
       minimatch: 9.0.4
     transitivePeerDependencies:
@@ -3264,9 +3264,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@hono/zod-validator@0.2.2(hono@4.4.9)(zod@3.23.8)':
+  '@hono/zod-validator@0.2.2(hono@4.4.10)(zod@3.23.8)':
     dependencies:
-      hono: 4.4.9
+      hono: 4.4.10
       zod: 3.23.8
 
   '@isaacs/cliui@8.0.2':
@@ -4360,16 +4360,16 @@ snapshots:
       capital-case: 1.0.4
       tslib: 2.6.3
 
-  hono@4.4.9: {}
+  hono@4.4.10: {}
 
-  honox@0.1.23(hono@4.4.9):
+  honox@0.1.23(hono@4.4.10):
     dependencies:
       '@babel/generator': 7.24.7
       '@babel/parser': 7.24.7
       '@babel/traverse': 7.24.7
       '@babel/types': 7.24.7
-      '@hono/vite-dev-server': 0.12.2(hono@4.4.9)
-      hono: 4.4.9
+      '@hono/vite-dev-server': 0.12.2(hono@4.4.10)
+      hono: 4.4.10
       jsonc-parser: 3.2.1
       precinct: 12.1.1
     optionalDependencies:
