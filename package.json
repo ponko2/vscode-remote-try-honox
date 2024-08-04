@@ -19,7 +19,7 @@
     "@hono/vite-cloudflare-pages": "^0.4.2",
     "@hono/vite-dev-server": "^0.13.1",
     "@tsconfig/strictest": "^2.0.5",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "dotenv-cli": "^7.4.2",
     "husky": "^9.1.4",
     "is-ci": "^3.0.1",
