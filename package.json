@@ -22,7 +22,7 @@
     "autoprefixer": "^10.4.20",
     "dotenv-cli": "^7.4.2",
     "husky": "^9.1.4",
-    "lint-staged": "^15.2.8",
+    "lint-staged": "^15.2.9",
     "npm-run-all2": "^6.2.2",
     "postcss": "^8.4.41",
     "prisma": "^5.18.0",
