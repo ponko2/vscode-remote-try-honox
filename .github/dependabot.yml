@@ -38,6 +38,11 @@ updates:
       commitlint:
         patterns:
           - "@commitlint/*"
+      hono:
+        patterns:
+          - "@hono/*"
+          - hono
+          - honox
       prisma:
         patterns:
           - "@prisma/*"
