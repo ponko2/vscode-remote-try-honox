@@ -49,8 +49,8 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2(hono@4.5.9)
       '@hono/vite-dev-server':
-        specifier: ^0.14.0
-        version: 0.14.0(hono@4.5.9)
+        specifier: ^0.15.0
+        version: 0.15.0(hono@4.5.9)(miniflare@3.20240821.0)(wrangler@3.72.3(@cloudflare/workers-types@4.20240821.1))
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -639,9 +639,11 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@hono/node-server@1.12.0':
-    resolution: {integrity: sha512-e6oHjNiErRxsZRZBmc2KucuvY3btlO/XPncIpP2X75bRdTilF9GLjm3NHvKKunpJbbJJj31/FoPTksTf8djAVw==}
+  '@hono/node-server@1.12.2':
+    resolution: {integrity: sha512-xjzhqhSWUE/OhN0g3KCNVzNsQMlFUAL+/8GgPUr3TKcU7cvgZVBGswFofJ8WwGEHTqobzze1lDpGJl9ZNckDhA==}
     engines: {node: '>=18.14.1'}
+    peerDependencies:
+      hono: ^4
 
   '@hono/vite-cloudflare-pages@0.4.2':
     resolution: {integrity: sha512-fvSmWNtL7rMTa6tfj0dJNu0UStp8veb2r1BfutoKtJ6GaTzO1sR5ElQw9jIYo46oTBcx8+i/9+NzyGR56awtrQ==}
@@ -654,6 +656,19 @@ packages:
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
+
+  '@hono/vite-dev-server@0.15.0':
+    resolution: {integrity: sha512-z4sg1Kvcon7U20eb6StgRXAwNayPFcUJ+LTuMXzNw3JttxSGWkS9B3A8Tw0p8bsAdbR/I896QNVdKgWRbL3h1w==}
+    engines: {node: '>=18.14.1'}
+    peerDependencies:
+      hono: '*'
+      miniflare: '*'
+      wrangler: '*'
+    peerDependenciesMeta:
+      miniflare:
+        optional: true
+      wrangler:
+        optional: true
 
   '@hono/zod-validator@0.2.2':
     resolution: {integrity: sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==}
@@ -1959,6 +1974,10 @@ packages:
     resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
+  minimatch@9.0.5:
+    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+    engines: {node: '>=16 || 14 >=14.17'}
+
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
@@ -3253,7 +3272,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/node-server@1.12.0': {}
+  '@hono/node-server@1.12.2(hono@4.5.9)':
+    dependencies:
+      hono: 4.5.9
 
   '@hono/vite-cloudflare-pages@0.4.2(hono@4.5.9)':
     dependencies:
@@ -3261,14 +3282,23 @@ snapshots:
 
   '@hono/vite-dev-server@0.14.0(hono@4.5.9)':
     dependencies:
-      '@hono/node-server': 1.12.0
+      '@hono/node-server': 1.12.2(hono@4.5.9)
       hono: 4.5.9
       miniflare: 3.20240806.0
-      minimatch: 9.0.4
+      minimatch: 9.0.5
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
+
+  '@hono/vite-dev-server@0.15.0(hono@4.5.9)(miniflare@3.20240821.0)(wrangler@3.72.3(@cloudflare/workers-types@4.20240821.1))':
+    dependencies:
+      '@hono/node-server': 1.12.2(hono@4.5.9)
+      hono: 4.5.9
+      minimatch: 9.0.5
+    optionalDependencies:
+      miniflare: 3.20240821.0
+      wrangler: 3.72.3(@cloudflare/workers-types@4.20240821.1)
 
   '@hono/zod-validator@0.2.2(hono@4.5.9)(zod@3.23.8)':
     dependencies:
@@ -3550,7 +3580,7 @@ snapshots:
       debug: 4.3.6
       globby: 11.1.0
       is-glob: 4.0.3
-      minimatch: 9.0.4
+      minimatch: 9.0.5
       semver: 7.6.3
       ts-api-utils: 1.3.0(typescript@5.5.4)
     optionalDependencies:
@@ -4313,7 +4343,7 @@ snapshots:
     dependencies:
       foreground-child: 3.2.1
       jackspeak: 3.4.0
-      minimatch: 9.0.4
+      minimatch: 9.0.5
       minipass: 7.1.2
       path-scurry: 1.11.1
 
@@ -4706,6 +4736,10 @@ snapshots:
       brace-expansion: 2.0.1
 
   minimatch@9.0.4:
+    dependencies:
+      brace-expansion: 2.0.1
+
+  minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
 
