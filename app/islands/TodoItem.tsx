@@ -1,6 +1,6 @@
 import type { Todo } from "@prisma/client";
 import { cva } from "class-variance-authority";
-import { useEffect, useRef, useState } from "hono/jsx";
+import { useEffect, useId, useRef, useState } from "hono/jsx";
 import { cn } from "../lib/utils";
 import TodoButton from "./TodoButton";
 
@@ -55,11 +55,13 @@ function ToggleForm({
   todo,
   onEditChange,
 }: Props & { onEditChange: (edit: boolean) => void }) {
+  const id = useId();
   return (
     <form method="post" action={`/todos/${todo.id}`}>
       <input type="hidden" name="_method" value="put" />
       <input type="hidden" name="title" value={todo.title} />
       <input
+        id={id}
         type="checkbox"
         name="completed"
         value="on"
@@ -73,6 +75,7 @@ function ToggleForm({
         }}
       />
       <label
+        for={id}
         class={cn(
           "block h-full break-words bg-unchecked bg-left bg-no-repeat py-4 pl-14 pr-4 font-normal leading-tight text-neutral-700 transition-colors duration-500",
           "peer-checked:bg-checked peer-checked:text-neutral-400 peer-checked:line-through",
