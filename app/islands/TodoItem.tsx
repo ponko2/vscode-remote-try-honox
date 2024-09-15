@@ -82,6 +82,8 @@ function ToggleForm({
           "peer-focus:shadow peer-focus:shadow-red-400 peer-focus:outline-none",
         )}
         onDoubleClick={() => onEditChange(true)}
+        onClick={(event) => event.preventDefault()}
+        onKeyDown={(event) => event.preventDefault()}
       >
         {todo.title}
       </label>
