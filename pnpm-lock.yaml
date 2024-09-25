@@ -25,7 +25,7 @@ importers:
         version: 4.6.3
       honox:
         specifier: ^0.1.25
-        version: 0.1.25(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0))
+        version: 0.1.25(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0))
       tailwind-merge:
         specifier: ^2.5.2
         version: 2.5.2
@@ -37,8 +37,8 @@ importers:
         specifier: ^1.9.2
         version: 1.9.2
       '@cloudflare/workers-types':
-        specifier: ^4.20240924.0
-        version: 4.20240924.0
+        specifier: ^4.20240925.0
+        version: 4.20240925.0
       '@commitlint/cli':
         specifier: ^19.5.0
         version: 19.5.0(@types/node@22.5.1)(typescript@5.6.2)
@@ -50,7 +50,7 @@ importers:
         version: 0.4.2(hono@4.6.3)
       '@hono/vite-dev-server':
         specifier: ^0.16.0
-        version: 0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0))
+        version: 0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0))
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -89,7 +89,7 @@ importers:
         version: 5.4.8(@types/node@22.5.1)
       wrangler:
         specifier: ^3.78.9
-        version: 3.78.9(@cloudflare/workers-types@4.20240924.0)
+        version: 3.78.9(@cloudflare/workers-types@4.20240925.0)
 
 packages:
 
@@ -229,8 +229,8 @@ packages:
     resolution: {integrity: sha512-PNL/0TjKRdUHa1kwgVdqUNJVZ9ez4kacsi8omz+gv859EvJmsVuGiMAClY2YfJnC9LVKhKCcjqmFgKNXG9/IXA==}
     engines: {node: '>=16.7.0'}
 
-  '@cloudflare/workers-types@4.20240924.0':
-    resolution: {integrity: sha512-AnoHY0B5rgMv4Lg34mdwfp4+Z9ZZRli8AFO7uY8Q9UchR+HPEMEdaAQ0EswTYQqcVBdarRuYyM0Oeo4hM8Jqog==}
+  '@cloudflare/workers-types@4.20240925.0':
+    resolution: {integrity: sha512-KpqyRWvanEuXgBTKYFzRp4NsWOEcswxjsPRSre1zYQcODmc8PUrraVHQUmgvkJgv3FzB+vI9xm7J6oE4MmZHCA==}
 
   '@commitlint/cli@19.5.0':
     resolution: {integrity: sha512-gaGqSliGwB86MDmAAKAtV9SV1SHdmN8pnGq4EJU4+hLisQ7IFfx4jvU4s+pk6tl0+9bv6yT+CaZkufOinkSJIQ==}
@@ -1497,10 +1497,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -1603,6 +1605,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -2315,10 +2318,12 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup-plugin-inject@3.0.2:
     resolution: {integrity: sha512-ptg9PQwzs3orn4jkgXJ74bfs5vYz1NCZlSQMBUA0wKcGp5i5pA1AO3fOUEte8enhGUC+iapTCzEWw2jEFFUO/w==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
 
   rollup-plugin-node-polyfills@0.2.1:
     resolution: {integrity: sha512-4kCrKPTJ6sK4/gLL/U5QzVT8cxJcofO0OU74tnB19F40cmuAKSzH5/siithxlofFEjwvw1YAhPmbvGNA6jEroA==}
@@ -2410,6 +2415,7 @@ packages:
 
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
 
   spdx-correct@3.2.0:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
@@ -2639,6 +2645,7 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
+    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     hasBin: true
 
   uuid@9.0.0:
@@ -2886,7 +2893,7 @@ snapshots:
       mime: 3.0.0
       zod: 3.23.8
 
-  '@cloudflare/workers-types@4.20240924.0': {}
+  '@cloudflare/workers-types@4.20240925.0': {}
 
   '@commitlint/cli@19.5.0(@types/node@22.5.1)(typescript@5.6.2)':
     dependencies:
@@ -3162,14 +3169,14 @@ snapshots:
     dependencies:
       hono: 4.6.3
 
-  '@hono/vite-dev-server@0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0))':
+  '@hono/vite-dev-server@0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0))':
     dependencies:
       '@hono/node-server': 1.12.2(hono@4.6.3)
       hono: 4.6.3
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 3.20240909.5
-      wrangler: 3.78.9(@cloudflare/workers-types@4.20240924.0)
+      wrangler: 3.78.9(@cloudflare/workers-types@4.20240925.0)
 
   '@hono/zod-validator@0.2.2(hono@4.6.3)(zod@3.23.8)':
     dependencies:
@@ -4269,13 +4276,13 @@ snapshots:
 
   hono@4.6.3: {}
 
-  honox@0.1.25(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0)):
+  honox@0.1.25(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0))
+      '@hono/vite-dev-server': 0.16.0(hono@4.6.3)(miniflare@3.20240909.5)(wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0))
       hono: 4.6.3
       jsonc-parser: 3.3.1
       precinct: 12.1.2
@@ -5363,7 +5370,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20240909.0
       '@cloudflare/workerd-windows-64': 1.20240909.0
 
-  wrangler@3.78.9(@cloudflare/workers-types@4.20240924.0):
+  wrangler@3.78.9(@cloudflare/workers-types@4.20240925.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.5.4
@@ -5383,7 +5390,7 @@ snapshots:
       workerd: 1.20240909.0
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20240924.0
+      '@cloudflare/workers-types': 4.20240925.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
