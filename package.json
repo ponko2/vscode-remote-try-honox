@@ -36,7 +36,6 @@
   "private": true,
   "scripts": {
     "build": "vite build --mode client && vite build",
-    "compile": "tsc --noEmit",
     "deploy": "$npm_execpath run build && wrangler pages deploy",
     "dev": "vite",
     "env": "dotenv -e .dev.vars",
@@ -48,7 +47,8 @@
     "lint": "biome check",
     "prepare": "node .husky/install.mjs",
     "preview": "wrangler pages dev",
-    "setup": "corepack enable pnpm"
+    "setup": "corepack enable pnpm",
+    "typecheck": "tsc --noEmit"
   },
   "type": "module"
 }
