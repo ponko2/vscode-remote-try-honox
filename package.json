@@ -8,7 +8,7 @@
     "clsx": "^2.1.1",
     "hono": "^4.6.4",
     "honox": "^0.1.26",
-    "tailwind-merge": "^2.5.3",
+    "tailwind-merge": "^2.5.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
