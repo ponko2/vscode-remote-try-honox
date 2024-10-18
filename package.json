@@ -23,7 +23,7 @@
     "dotenv-cli": "^7.4.2",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "npm-run-all2": "^6.2.3",
+    "npm-run-all2": "^6.2.4",
     "postcss": "^8.4.47",
     "prisma": "^5.21.1",
     "prisma-case-format": "^2.2.1",
@@ -32,7 +32,7 @@
     "vite": "^5.4.9",
     "wrangler": "^3.81.0"
   },
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@9.12.2",
   "private": true,
   "scripts": {
     "build": "vite build --mode client && vite build",
