@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.4.1
-        version: 0.4.1(hono@4.6.13)(zod@3.24.0)
+        version: 0.4.1(hono@4.6.13)(zod@3.24.1)
       '@prisma/client':
         specifier: ^6.0.1
         version: 6.0.1(prisma@6.0.1)
@@ -30,8 +30,8 @@ importers:
         specifier: ^2.5.5
         version: 2.5.5
       zod:
-        specifier: ^3.24.0
-        version: 3.24.0
+        specifier: ^3.24.1
+        version: 3.24.1
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -2822,8 +2822,8 @@ packages:
     resolution: {integrity: sha512-9qv4rlDiopXg4E69k+vMHjNN63YFMe9sZMrdlvKnCjlCRWeCBswPPMPUfx+ipsAWq1LXHe70RcbaHdJJpS6hyQ==}
     engines: {node: '>= 10'}
 
-  zod@3.24.0:
-    resolution: {integrity: sha512-Hz+wiY8yD0VLA2k/+nsg2Abez674dDGTai33SwNvMPuf9uIrBC9eFgIMQxBBbHFxVXi8W+5nX9DcAh9YNSQm/w==}
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
 
@@ -2942,7 +2942,7 @@ snapshots:
   '@cloudflare/workers-shared@0.11.0':
     dependencies:
       mime: 3.0.0
-      zod: 3.24.0
+      zod: 3.24.1
 
   '@cloudflare/workers-types@4.20241205.0': {}
 
@@ -3245,10 +3245,10 @@ snapshots:
       miniflare: 3.20241205.0
       wrangler: 3.95.0(@cloudflare/workers-types@4.20241205.0)
 
-  '@hono/zod-validator@0.4.1(hono@4.6.13)(zod@3.24.0)':
+  '@hono/zod-validator@0.4.1(hono@4.6.13)(zod@3.24.1)':
     dependencies:
       hono: 4.6.13
-      zod: 3.24.0
+      zod: 3.24.1
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4638,7 +4638,7 @@ snapshots:
       workerd: 1.20241205.0
       ws: 8.18.0
       youch: 3.3.3
-      zod: 3.24.0
+      zod: 3.24.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -5530,4 +5530,4 @@ snapshots:
       compress-commons: 4.1.2
       readable-stream: 3.6.2
 
-  zod@3.24.0: {}
+  zod@3.24.1: {}
