@@ -7,7 +7,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "hono": "^4.6.16",
-    "honox": "^0.1.29",
+    "honox": "^0.1.31",
     "tailwind-merge": "^2.6.0",
     "zod": "^3.24.1"
   },
