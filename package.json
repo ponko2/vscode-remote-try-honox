@@ -7,7 +7,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "hono": "^4.6.16",
-    "honox": "^0.1.31",
+    "honox": "^0.1.32",
     "tailwind-merge": "^2.6.0",
     "zod": "^3.24.1"
   },
@@ -17,7 +17,7 @@
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@hono/vite-build": "^1.2.1",
-    "@hono/vite-dev-server": "^0.18.0",
+    "@hono/vite-dev-server": "^0.18.1",
     "@tsconfig/strictest": "^2.0.5",
     "autoprefixer": "^10.4.20",
     "dotenv-cli": "^8.0.0",
