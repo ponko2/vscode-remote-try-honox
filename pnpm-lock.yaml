@@ -25,7 +25,7 @@ importers:
         version: 4.6.19
       honox:
         specifier: ^0.1.33
-        version: 0.1.33(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3))
+        version: 0.1.33(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0))
       tailwind-merge:
         specifier: ^2.6.0
         version: 2.6.0
@@ -37,8 +37,8 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
       '@cloudflare/workers-types':
-        specifier: ^4.20250124.3
-        version: 4.20250124.3
+        specifier: ^4.20250129.0
+        version: 4.20250129.0
       '@commitlint/cli':
         specifier: ^19.6.1
         version: 19.6.1(@types/node@22.10.2)(typescript@5.7.3)
@@ -50,7 +50,7 @@ importers:
         version: 1.2.1(hono@4.6.19)
       '@hono/vite-dev-server':
         specifier: ^0.18.1
-        version: 0.18.1(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3))
+        version: 0.18.1(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0))
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -89,7 +89,7 @@ importers:
         version: 6.0.11(@types/node@22.10.2)(jiti@2.4.1)(yaml@2.7.0)
       wrangler:
         specifier: ^3.106.0
-        version: 3.106.0(@cloudflare/workers-types@4.20250124.3)
+        version: 3.106.0(@cloudflare/workers-types@4.20250129.0)
 
 packages:
 
@@ -230,8 +230,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20250124.3':
-    resolution: {integrity: sha512-WRZ+ol4RnMroF3tc7en6w8b0MqLrmGnLr2LIhG8EWqIoy8MeYk5uhyNXMZ0WPBhwkRtDcTRwOt61xwnJrthskA==}
+  '@cloudflare/workers-types@4.20250129.0':
+    resolution: {integrity: sha512-H7g/sDB9GaV+fIPf3utNEYncFhryIvDThiBbfZtu0bZmVXcVd9ApP3OMqUYhNV8MShWQASvgWletKKBZGT9/oA==}
 
   '@commitlint/cli@19.6.1':
     resolution: {integrity: sha512-8hcyA6ZoHwWXC76BoC8qVOSr8xHy00LZhZpauiD0iO0VYbVhMnED0da85lTfIULxl7Lj4c6vZgF0Wu/ed1+jlQ==}
@@ -2938,7 +2938,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20250124.0':
     optional: true
 
-  '@cloudflare/workers-types@4.20250124.3': {}
+  '@cloudflare/workers-types@4.20250129.0': {}
 
   '@commitlint/cli@19.6.1(@types/node@22.10.2)(typescript@5.7.3)':
     dependencies:
@@ -3220,23 +3220,23 @@ snapshots:
     dependencies:
       hono: 4.6.19
 
-  '@hono/vite-dev-server@0.18.0(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3))':
+  '@hono/vite-dev-server@0.18.0(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0))':
     dependencies:
       '@hono/node-server': 1.13.7(hono@4.6.19)
       hono: 4.6.19
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 3.20250124.0
-      wrangler: 3.106.0(@cloudflare/workers-types@4.20250124.3)
+      wrangler: 3.106.0(@cloudflare/workers-types@4.20250129.0)
 
-  '@hono/vite-dev-server@0.18.1(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3))':
+  '@hono/vite-dev-server@0.18.1(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0))':
     dependencies:
       '@hono/node-server': 1.13.7(hono@4.6.19)
       hono: 4.6.19
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 3.20250124.0
-      wrangler: 3.106.0(@cloudflare/workers-types@4.20250124.3)
+      wrangler: 3.106.0(@cloudflare/workers-types@4.20250129.0)
 
   '@hono/zod-validator@0.4.2(hono@4.6.19)(zod@3.24.1)':
     dependencies:
@@ -4340,13 +4340,13 @@ snapshots:
 
   hono@4.6.19: {}
 
-  honox@0.1.33(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3)):
+  honox@0.1.33(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.18.0(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3))
+      '@hono/vite-dev-server': 0.18.0(hono@4.6.19)(miniflare@3.20250124.0)(wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0))
       hono: 4.6.19
       jsonc-parser: 3.3.1
       precinct: 12.1.2
@@ -5454,7 +5454,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250124.0
       '@cloudflare/workerd-windows-64': 1.20250124.0
 
-  wrangler@3.106.0(@cloudflare/workers-types@4.20250124.3):
+  wrangler@3.106.0(@cloudflare/workers-types@4.20250129.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -5466,7 +5466,7 @@ snapshots:
       unenv: 2.0.0-rc.1
       workerd: 1.20250124.0
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20250124.3
+      '@cloudflare/workers-types': 4.20250129.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
