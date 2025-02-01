@@ -9,7 +9,7 @@ export default function TodoCreateForm() {
         class={cn(
           "size-full py-4 pl-14 pr-4 text-2xl shadow-inner",
           "placeholder:font-normal placeholder:italic placeholder:text-black/40",
-          "focus:shadow focus:shadow-red-400 focus:outline-none",
+          "focus:shadow-sm focus:shadow-red-400 focus:outline-hidden",
         )}
         onKeyDown={(event) => {
           if (

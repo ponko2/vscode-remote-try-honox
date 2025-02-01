@@ -32,7 +32,7 @@ export default function TodoFooter({ completedTodosCount, todosCount }: Props) {
   const link = cva(
     [
       "m-1",
-      "rounded",
+      "rounded-sm",
       "border",
       "px-2",
       "py-1",

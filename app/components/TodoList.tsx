@@ -8,7 +8,7 @@ interface Props {
 export default async function TodoList({ todos }: Props) {
   return (
     <section>
-      <ul class="divide-y divide-neutral-200 [&>*]:block">
+      <ul class="divide-y divide-neutral-200 *:block">
         {todos.map((todo) => (
           <TodoItem todo={todo} />
         ))}

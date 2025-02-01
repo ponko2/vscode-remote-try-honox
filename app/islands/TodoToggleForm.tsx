@@ -22,9 +22,9 @@ export default function TodoToggleForm({ checked }: Props) {
         />
         <span
           class={cn(
-            "absolute left-0 top-0 flex h-full w-12 items-center justify-center text-[0]",
+            "absolute left-0 top-0 flex h-full w-12 items-center justify-center text-[0px]",
             "before:inline-block before:rotate-90 before:px-7 before:py-2.5 before:text-2xl before:text-neutral-400 before:content-['❯']",
-            "peer-checked:before:text-neutral-700 peer-focus:shadow peer-focus:shadow-red-400 peer-focus:outline-none",
+            "peer-checked:before:text-neutral-700 peer-focus:shadow-sm peer-focus:shadow-red-400 peer-focus:outline-hidden",
           )}
         >
           Mark all as complete
