@@ -29,7 +29,7 @@ function UpdateForm({
         value={todo.title}
         class={cn(
           "size-full border border-neutral-400 px-4 py-3 shadow-inner",
-          "focus:shadow focus:shadow-red-400 focus:outline-none",
+          "focus:shadow-sm focus:shadow-red-400 focus:outline-hidden",
         )}
         onBlur={(event) => {
           if (event.currentTarget instanceof HTMLInputElement) {
@@ -66,7 +66,7 @@ function ToggleForm({
         name="completed"
         value="on"
         checked={todo.completed}
-        class="peer absolute inset-y-0 my-auto size-12 appearance-none outline-none"
+        class="peer absolute inset-y-0 my-auto size-12 appearance-none outline-hidden"
         onChange={(event) => {
           if (event.currentTarget instanceof HTMLInputElement) {
             event.preventDefault();
@@ -79,7 +79,7 @@ function ToggleForm({
         class={cn(
           "block h-full break-words bg-unchecked bg-left bg-no-repeat py-4 pl-14 pr-4 font-normal leading-tight text-neutral-700 transition-colors duration-500",
           "peer-checked:bg-checked peer-checked:text-neutral-400 peer-checked:line-through",
-          "peer-focus:shadow peer-focus:shadow-red-400 peer-focus:outline-none",
+          "peer-focus:shadow-sm peer-focus:shadow-red-400 peer-focus:outline-hidden",
         )}
         onDoubleClick={() => onEditChange(true)}
         onClick={(event) => event.preventDefault()}
