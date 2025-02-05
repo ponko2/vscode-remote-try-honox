@@ -29,7 +29,7 @@
     "tailwindcss": "^4.0.3",
     "typescript": "^5.7.3",
     "vite": "^6.0.11",
-    "wrangler": "^3.107.2"
+    "wrangler": "^3.107.3"
   },
   "packageManager": "pnpm@9.15.4",
   "private": true,
