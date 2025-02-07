@@ -47,3 +47,7 @@ updates:
         patterns:
           - "@prisma/*"
           - prisma
+      tailwindcss:
+        patterns:
+          - "@tailwindcss/*"
+          - tailwindcss
