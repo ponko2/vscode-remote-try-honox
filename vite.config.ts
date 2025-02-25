@@ -1,4 +1,4 @@
-import build from "@hono/vite-build/cloudflare-pages";
+import build from "@hono/vite-build/cloudflare-workers";
 import adapter from "@hono/vite-dev-server/cloudflare";
 import tailwindcss from "@tailwindcss/vite";
 import honox from "honox/vite";
@@ -12,7 +12,7 @@ export default defineConfig({
     tailwindcss(),
     honox({
       client: {
-        input: ["/app/style.css"],
+        input: ["./app/style.css"],
       },
       devServer: {
         adapter,

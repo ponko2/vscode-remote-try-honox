@@ -4,7 +4,10 @@ import { fetchTodos } from "../models/todo";
 
 export default createRoute(async (c) => {
   const todos = await fetchTodos();
-  return c.render(<TodoPage todos={todos} type="active" />, {
-    title: "Active",
-  });
+  return c.render(
+    <>
+      <title>Active</title>
+      <TodoPage todos={todos} type="active" />
+    </>,
+  );
 });
