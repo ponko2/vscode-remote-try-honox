@@ -34,8 +34,8 @@
   "packageManager": "pnpm@10.4.1",
   "private": true,
   "scripts": {
-    "build": "vite build --mode client && vite build",
-    "deploy": "$npm_execpath run build && wrangler pages deploy",
+    "build": "vite build --mode client && vite build && cp ./.assetsignore ./dist",
+    "deploy": "$npm_execpath run build && wrangler deploy",
     "dev": "vite",
     "env": "dotenv -e .dev.vars",
     "fix": "run-s fix:biome fix:prisma-case fix:prisma",
@@ -45,7 +45,7 @@
     "generate": "prisma generate",
     "lint": "biome check",
     "prepare": "node .husky/install.mjs",
-    "preview": "wrangler pages dev",
+    "preview": "wrangler dev",
     "setup": "corepack enable pnpm",
     "typecheck": "tsc --noEmit"
   },
