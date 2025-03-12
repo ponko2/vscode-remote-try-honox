@@ -22,7 +22,7 @@
     "@tsconfig/strictest": "^2.0.5",
     "dotenv-cli": "^8.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.3",
+    "lint-staged": "^15.5.0",
     "npm-run-all2": "^7.0.2",
     "prisma": "^6.5.0",
     "prisma-case-format": "^2.2.1",
