@@ -27,7 +27,7 @@
     "prisma": "^6.5.0",
     "prisma-case-format": "^2.2.1",
     "tailwindcss": "^4.1.2",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "vite": "^6.2.5",
     "wrangler": "^4.7.0"
   },
