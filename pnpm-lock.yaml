@@ -25,7 +25,7 @@ importers:
         version: 4.7.6
       honox:
         specifier: ^0.1.39
-        version: 0.1.39(hono@4.7.6)(miniflare@4.20250405.0)(wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0))
+        version: 0.1.39(hono@4.7.6)(miniflare@4.20250405.1)(wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0))
       tailwind-merge:
         specifier: ^3.2.0
         version: 3.2.0
@@ -50,7 +50,7 @@ importers:
         version: 1.6.0(hono@4.7.6)
       '@hono/vite-dev-server':
         specifier: ^0.19.0
-        version: 0.19.0(hono@4.7.6)(miniflare@4.20250405.0)(wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0))
+        version: 0.19.0(hono@4.7.6)(miniflare@4.20250405.1)(wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0))
       '@tailwindcss/vite':
         specifier: ^4.1.3
         version: 4.1.3(vite@6.2.5(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.0))
@@ -85,8 +85,8 @@ importers:
         specifier: ^6.2.5
         version: 6.2.5(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.0)
       wrangler:
-        specifier: ^4.8.0
-        version: 4.8.0(@cloudflare/workers-types@4.20250407.0)
+        specifier: ^4.9.0
+        version: 4.9.0(@cloudflare/workers-types@4.20250407.0)
 
 packages:
 
@@ -2117,8 +2117,8 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  miniflare@4.20250405.0:
-    resolution: {integrity: sha512-HNiuN/5ahPtMUhWWS+ulgN+Wu0OrwUxmmHwHAM8R/sUCxRWyM5kYuhZ99HeU96WPsvSV0mWkl+bxCkxlnIZkwQ==}
+  miniflare@4.20250405.1:
+    resolution: {integrity: sha512-fE/+aXO2nJjD739Eo+J+M1cRtdxnhkYhlu+UhXM8x2J2IMN7LbArjMwjYKxmWjgROxqzradHKv+rmrXDhgXv4g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2721,8 +2721,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ufo@1.6.0:
-    resolution: {integrity: sha512-AkgU2cV/+Xb4Uz6cic0kMZbtM42nbltnGvTVOt/8gMCbO2/z64nE47TOygh7HjgFPkUkVRBEyNFqpqi3zo+BJA==}
+  ufo@1.6.1:
+    resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
 
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
@@ -2828,8 +2828,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.8.0:
-    resolution: {integrity: sha512-wXRXXpBDJCbUWUT2pWNjV1tA7wTEJy8SITQOV1FJ6y1ZCgffI/53z913fa4XN3S6PfAnxBfWi2IcB/ILwHdK6A==}
+  wrangler@4.9.0:
+    resolution: {integrity: sha512-kW3X3N1X194JxnRmRW4uaGbweCT3uwAeFYOzhe672sg+Qwmg1rMCh/Bw0CL7NRcQ1EG6Dw6usQZ+ZVYer5KE3Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3303,14 +3303,14 @@ snapshots:
     dependencies:
       hono: 4.7.6
 
-  '@hono/vite-dev-server@0.19.0(hono@4.7.6)(miniflare@4.20250405.0)(wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0))':
+  '@hono/vite-dev-server@0.19.0(hono@4.7.6)(miniflare@4.20250405.1)(wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0))':
     dependencies:
       '@hono/node-server': 1.14.0(hono@4.7.6)
       hono: 4.7.6
       minimatch: 9.0.5
     optionalDependencies:
-      miniflare: 4.20250405.0
-      wrangler: 4.8.0(@cloudflare/workers-types@4.20250407.0)
+      miniflare: 4.20250405.1
+      wrangler: 4.9.0(@cloudflare/workers-types@4.20250407.0)
 
   '@hono/zod-validator@0.4.3(hono@4.7.6)(zod@3.24.2)':
     dependencies:
@@ -4515,13 +4515,13 @@ snapshots:
 
   hono@4.7.6: {}
 
-  honox@0.1.39(hono@4.7.6)(miniflare@4.20250405.0)(wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0)):
+  honox@0.1.39(hono@4.7.6)(miniflare@4.20250405.1)(wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.19.0(hono@4.7.6)(miniflare@4.20250405.0)(wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0))
+      '@hono/vite-dev-server': 0.19.0(hono@4.7.6)(miniflare@4.20250405.1)(wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0))
       hono: 4.7.6
       jsonc-parser: 3.3.1
       precinct: 12.1.2
@@ -4827,7 +4827,7 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  miniflare@4.20250405.0:
+  miniflare@4.20250405.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -5458,7 +5458,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  ufo@1.6.0: {}
+  ufo@1.6.1: {}
 
   undici-types@6.20.0: {}
 
@@ -5472,7 +5472,7 @@ snapshots:
       exsolve: 1.0.4
       ohash: 2.0.11
       pathe: 2.0.3
-      ufo: 1.6.0
+      ufo: 1.6.1
 
   unicorn-magic@0.1.0: {}
 
@@ -5536,13 +5536,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250405.0
       '@cloudflare/workerd-windows-64': 1.20250405.0
 
-  wrangler@4.8.0(@cloudflare/workers-types@4.20250407.0):
+  wrangler@4.9.0(@cloudflare/workers-types@4.20250407.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250405.0)
       blake3-wasm: 2.1.5
       esbuild: 0.24.2
-      miniflare: 4.20250405.0
+      miniflare: 4.20250405.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.15
       workerd: 1.20250405.0
