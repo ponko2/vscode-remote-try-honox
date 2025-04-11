@@ -35,6 +35,10 @@ updates:
       prefix: build
     versioning-strategy: increase
     groups:
+      cloudflare:
+        patterns:
+          - "@cloudflare/*"
+          - wrangler
       commitlint:
         patterns:
           - "@commitlint/*"
