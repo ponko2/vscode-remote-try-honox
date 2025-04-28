@@ -6,7 +6,7 @@
     "@prisma/client": "^6.6.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "hono": "^4.7.7",
+    "hono": "^4.7.8",
     "honox": "^0.1.40",
     "tailwind-merge": "^3.2.0",
     "zod": "^3.24.3"
@@ -31,7 +31,7 @@
     "vite": "^6.3.3",
     "wrangler": "^4.13.2"
   },
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@biomejs/biome",
