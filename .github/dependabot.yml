@@ -29,16 +29,18 @@ updates:
     open-pull-requests-limit: 10
     versioning-strategy: increase
     groups:
+      cloudflare:
+        patterns:
+          - "@cloudflare/*"
+          - wrangler
       commitlint:
         patterns:
           - "@commitlint/*"
       hono:
         patterns:
-          - "@cloudflare/*"
           - "@hono/*"
           - hono
           - honox
-          - wrangler
       prisma:
         patterns:
           - "@prisma/*"
