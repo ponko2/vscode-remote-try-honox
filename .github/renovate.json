@@ -1,8 +1,29 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
+  "extends": [
+    "config:best-practices",
+    ":automergePatch",
+    ":disableRateLimiting",
+    ":gitSignOff"
+  ],
   "labels": ["dependencies"],
   "packageRules": [
+    {
+      "groupName": "cloudflare packages",
+      "matchSourceUrls": [
+        "https://github.com/cloudflare/workerd",
+        "https://github.com/cloudflare/workers-sdk"
+      ]
+    },
+    {
+      "groupName": "hono packages",
+      "matchSourceUrls": [
+        "https://github.com/honojs/hono",
+        "https://github.com/honojs/honox",
+        "https://github.com/honojs/middleware",
+        "https://github.com/honojs/vite-plugins"
+      ]
+    },
     {
       "matchManagers": ["github-actions"],
       "addLabels": ["github_actions"]
