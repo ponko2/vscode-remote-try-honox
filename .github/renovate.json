@@ -26,6 +26,12 @@
       ]
     },
     {
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@cloudflare/workers-types"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "matchManagers": ["github-actions"],
       "minimumReleaseAge": "3 days",
       "addLabels": ["github_actions"],
