@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@cloudflare/workers-types": "4.20250519.0",
+    "@cloudflare/workers-types": "4.20250520.0",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@hono/vite-build": "1.6.1",
@@ -29,7 +29,7 @@
     "tailwindcss": "4.1.7",
     "typescript": "5.8.3",
     "vite": "6.3.5",
-    "wrangler": "4.15.2"
+    "wrangler": "4.16.0"
   },
   "packageManager": "pnpm@10.11.0",
   "pnpm": {
