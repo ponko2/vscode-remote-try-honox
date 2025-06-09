@@ -24,7 +24,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.1.0",
     "npm-run-all2": "8.0.4",
-    "prisma": "6.8.2",
+    "prisma": "6.9.0",
     "prisma-case-format": "2.2.1",
     "tailwindcss": "4.1.8",
     "typescript": "5.8.3",
