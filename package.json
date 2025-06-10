@@ -9,7 +9,7 @@
     "hono": "^4.7.11",
     "honox": "^0.1.42",
     "tailwind-merge": "^3.3.0",
-    "zod": "^3.25.56"
+    "zod": "^3.25.57"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
