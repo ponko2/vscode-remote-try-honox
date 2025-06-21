@@ -20,9 +20,7 @@ function UpdateForm({
       <input type="hidden" name="_method" value="put" />
       {todo.completed ? (
         <input type="hidden" name="completed" value="on" />
-      ) : (
-        <></>
-      )}
+      ) : null}
       <input
         type="text"
         name="title"
