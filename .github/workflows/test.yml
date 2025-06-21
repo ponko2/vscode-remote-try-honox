@@ -84,7 +84,7 @@ jobs:
               - ".github/workflows/*.{yaml,yml}"
             biome:
               - *app
-              - "**.{cjs,cts,js,json,jsonc,jsx,mjs,mts,ts,tsx}"
+              - "**/*.{cjs,cts,js,json,jsonc,jsx,mjs,mts,ts,tsx}"
               - biome.json
             prisma:
               - *common
@@ -93,10 +93,10 @@ jobs:
               - prisma/**
             typecheck:
               - *app
-              - "**.{ts,tsx}"
+              - "**/*.{ts,tsx}"
             yamllint:
               - *common
-              - "**.{yaml,yml}"
+              - "**/*.{yaml,yml}"
   actionlint:
     name: actionlint
     if: ${{ needs.changed-files.outputs.actions == 'true' }}
