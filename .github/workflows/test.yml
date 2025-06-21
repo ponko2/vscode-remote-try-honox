@@ -84,8 +84,7 @@ jobs:
               - ".github/workflows/*.{yaml,yml}"
             biome:
               - *app
-              - "**/*.{cjs,cts,js,json,jsonc,jsx,mjs,mts,ts,tsx}"
-              - biome.json
+              - "**/*.{js,jsx,ts,tsx,cjs,cts,mjs,mts,json,jsonc,css,svelte,vue,astro,graphql,gql}"
             prisma:
               - *common
               - *dependencies
