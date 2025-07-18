@@ -1,6 +1,6 @@
 import { zValidator } from "@hono/zod-validator";
 import { createRoute } from "honox/factory";
-import { z } from "zod/v4";
+import { z } from "zod";
 import { deleteTodo, updateTodo } from "../../models/todo";
 
 const paramSchema = z.object({
