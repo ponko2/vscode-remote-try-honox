@@ -1,4 +1,3 @@
-// biome-ignore lint/correctness/noUnusedImports: false positive
 import type {} from "hono";
 
 declare module "hono" {

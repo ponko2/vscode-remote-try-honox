@@ -24,7 +24,7 @@ export default function TodoFooter({ completedTodosCount, todosCount }: Props) {
   const c = useRequestContext();
 
   if (todosCount <= 0) {
-    return <></>;
+    return null;
   }
 
   const activeCount = todosCount - completedTodosCount;
