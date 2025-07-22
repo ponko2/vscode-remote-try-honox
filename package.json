@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
-    "@cloudflare/workers-types": "4.20250719.0",
+    "@cloudflare/workers-types": "4.20250722.0",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@hono/vite-build": "1.6.2",
