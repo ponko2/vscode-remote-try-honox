@@ -28,7 +28,7 @@
     "prisma-case-format": "2.2.1",
     "tailwindcss": "4.1.11",
     "typescript": "5.8.3",
-    "vite": "7.0.5",
+    "vite": "7.0.6",
     "wrangler": "4.26.0"
   },
   "packageManager": "pnpm@10.13.1",
