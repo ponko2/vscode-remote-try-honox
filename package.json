@@ -44,7 +44,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "vite build --mode client && vite build && cp ./.assetsignore ./dist",
+    "build": "vite build --mode client && vite build",
     "deploy": "$npm_execpath run build && wrangler deploy",
     "dev": "vite",
     "fix": "run-s fix:biome fix:prisma-case fix:prisma",
