@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.7.2
-        version: 0.7.2(hono@4.8.8)(zod@4.0.10)
+        version: 0.7.2(hono@4.8.9)(zod@4.0.10)
       '@prisma/client':
         specifier: ^6.12.0
         version: 6.12.0(prisma@6.12.0(typescript@5.8.3))(typescript@5.8.3)
@@ -21,11 +21,11 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       hono:
-        specifier: ^4.8.8
-        version: 4.8.8
+        specifier: ^4.8.9
+        version: 4.8.9
       honox:
         specifier: ^0.1.43
-        version: 0.1.43(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
+        version: 0.1.43(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -47,10 +47,10 @@ importers:
         version: 19.8.1
       '@hono/vite-build':
         specifier: 1.6.2
-        version: 1.6.2(hono@4.8.8)
+        version: 1.6.2(hono@4.8.9)
       '@hono/vite-dev-server':
         specifier: 0.20.0
-        version: 0.20.0(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
+        version: 0.20.0(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
       '@tailwindcss/vite':
         specifier: 4.1.11
         version: 4.1.11(vite@7.0.6(@types/node@24.0.15)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))
@@ -1756,8 +1756,8 @@ packages:
   header-case@2.0.4:
     resolution: {integrity: sha512-H/vuk5TEEVZwrR0lp2zed9OCo1uAILMlx0JEMgC26rzyJJ3N1v6XkwHHXJQdR2doSjcGPM6OKPYoJgf0plJ11Q==}
 
-  hono@4.8.8:
-    resolution: {integrity: sha512-GbxTGB93Y+MOwCL2tnf9nE6L2Bn3s9D0pS+Mh1FoU4gkuecMVmg8VvHHLO702tq8y9N2fcrlcP8eCm7/feucng==}
+  hono@4.8.9:
+    resolution: {integrity: sha512-ERIxkXMRhUxGV7nS/Af52+j2KL60B1eg+k6cPtgzrGughS+espS9KQ7QO0SMnevtmRlBfAcN0mf1jKtO6j/doA==}
     engines: {node: '>=16.9.0'}
 
   honox@0.1.43:
@@ -3334,35 +3334,35 @@ snapshots:
   '@esbuild/win32-x64@0.25.8':
     optional: true
 
-  '@hono/node-server@1.17.1(hono@4.8.8)':
+  '@hono/node-server@1.17.1(hono@4.8.9)':
     dependencies:
-      hono: 4.8.8
+      hono: 4.8.9
 
-  '@hono/vite-build@1.6.2(hono@4.8.8)':
+  '@hono/vite-build@1.6.2(hono@4.8.9)':
     dependencies:
-      hono: 4.8.8
+      hono: 4.8.9
 
-  '@hono/vite-dev-server@0.19.1(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))':
+  '@hono/vite-dev-server@0.19.1(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))':
     dependencies:
-      '@hono/node-server': 1.17.1(hono@4.8.8)
-      hono: 4.8.8
+      '@hono/node-server': 1.17.1(hono@4.8.9)
+      hono: 4.8.9
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 4.20250712.2
       wrangler: 4.26.0(@cloudflare/workers-types@4.20250725.0)
 
-  '@hono/vite-dev-server@0.20.0(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))':
+  '@hono/vite-dev-server@0.20.0(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))':
     dependencies:
-      '@hono/node-server': 1.17.1(hono@4.8.8)
-      hono: 4.8.8
+      '@hono/node-server': 1.17.1(hono@4.8.9)
+      hono: 4.8.9
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 4.20250712.2
       wrangler: 4.26.0(@cloudflare/workers-types@4.20250725.0)
 
-  '@hono/zod-validator@0.7.2(hono@4.8.8)(zod@4.0.10)':
+  '@hono/zod-validator@0.7.2(hono@4.8.9)(zod@4.0.10)':
     dependencies:
-      hono: 4.8.8
+      hono: 4.8.9
       zod: 4.0.10
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -4561,16 +4561,16 @@ snapshots:
       capital-case: 1.0.4
       tslib: 2.8.1
 
-  hono@4.8.8: {}
+  hono@4.8.9: {}
 
-  honox@0.1.43(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0)):
+  honox@0.1.43(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.19.1(hono@4.8.8)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
-      hono: 4.8.8
+      '@hono/vite-dev-server': 0.19.1(hono@4.8.9)(miniflare@4.20250712.2)(wrangler@4.26.0(@cloudflare/workers-types@4.20250725.0))
+      hono: 4.8.9
       jsonc-parser: 3.3.1
       precinct: 12.1.2
     optionalDependencies:
