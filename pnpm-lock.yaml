@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.7.2
-        version: 0.7.2(hono@4.8.12)(zod@4.0.14)
+        version: 0.7.2(hono@4.8.12)(zod@4.0.15)
       '@prisma/client':
         specifier: ^6.13.0
         version: 6.13.0(prisma@6.13.0(typescript@5.9.2))(typescript@5.9.2)
@@ -30,8 +30,8 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1
       zod:
-        specifier: ^4.0.14
-        version: 4.0.14
+        specifier: ^4.0.15
+        version: 4.0.15
     devDependencies:
       '@biomejs/biome':
         specifier: 2.1.3
@@ -3035,8 +3035,8 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@4.0.14:
-    resolution: {integrity: sha512-nGFJTnJN6cM2v9kXL+SOBq3AtjQby3Mv5ySGFof5UGRHrRioSJ5iG680cYNjE/yWk671nROcpPj4hAS8nyLhSw==}
+  zod@4.0.15:
+    resolution: {integrity: sha512-2IVHb9h4Mt6+UXkyMs0XbfICUh1eUrlJJAOupBHUhLRnKkruawyDddYRCs0Eizt900ntIMk9/4RksYl+FgSpcQ==}
 
 snapshots:
 
@@ -3466,10 +3466,10 @@ snapshots:
       miniflare: 4.20250803.0
       wrangler: 4.28.0(@cloudflare/workers-types@4.20250805.0)
 
-  '@hono/zod-validator@0.7.2(hono@4.8.12)(zod@4.0.14)':
+  '@hono/zod-validator@0.7.2(hono@4.8.12)(zod@4.0.15)':
     dependencies:
       hono: 4.8.12
-      zod: 4.0.14
+      zod: 4.0.15
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -5889,4 +5889,4 @@ snapshots:
 
   zod@3.22.3: {}
 
-  zod@4.0.14: {}
+  zod@4.0.15: {}
