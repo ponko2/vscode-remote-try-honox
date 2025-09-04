@@ -21,7 +21,7 @@
     "@tailwindcss/vite": "4.1.12",
     "@tsconfig/strictest": "2.0.5",
     "husky": "9.1.7",
-    "lint-staged": "16.1.5",
+    "lint-staged": "16.1.6",
     "npm-run-all2": "8.0.4",
     "prisma": "6.15.0",
     "prisma-case-format": "2.2.1",
