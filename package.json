@@ -30,7 +30,7 @@
     "vite": "7.1.4",
     "wrangler": "4.33.1"
   },
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.15.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@biomejs/biome",
