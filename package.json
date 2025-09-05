@@ -12,7 +12,7 @@
     "zod": "^4.1.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.4",
+    "@biomejs/biome": "2.2.3",
     "@cloudflare/workers-types": "4.20250905.0",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
