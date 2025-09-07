@@ -182,7 +182,6 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: lts/*
-          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - run: pnpm run generate
@@ -207,7 +206,6 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: lts/*
-          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Validate all commits from PR
@@ -249,7 +247,6 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: lts/*
-          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - run: pnpm exec prisma format
@@ -274,7 +271,6 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
           node-version: lts/*
-          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - run: pnpm run generate
