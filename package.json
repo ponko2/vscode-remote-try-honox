@@ -30,7 +30,7 @@
     "vite": "7.1.7",
     "wrangler": "4.38.0"
   },
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.17.1",
   "private": true,
   "scripts": {
     "build": "vite build --mode client && vite build",
