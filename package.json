@@ -19,7 +19,7 @@
     "@hono/vite-build": "1.7.0",
     "@hono/vite-dev-server": "0.21.0",
     "@tailwindcss/vite": "4.1.13",
-    "@tsconfig/strictest": "2.0.5",
+    "@tsconfig/strictest": "2.0.6",
     "husky": "9.1.7",
     "lint-staged": "16.1.6",
     "npm-run-all2": "8.0.4",
