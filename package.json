@@ -17,7 +17,7 @@
     "@commitlint/cli": "20.1.0",
     "@commitlint/config-conventional": "20.0.0",
     "@hono/vite-build": "1.7.0",
-    "@hono/vite-dev-server": "0.22.0",
+    "@hono/vite-dev-server": "0.23.0",
     "@tailwindcss/vite": "4.1.14",
     "@tsconfig/strictest": "2.0.6",
     "husky": "9.1.7",
