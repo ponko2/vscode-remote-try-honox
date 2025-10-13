@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@hono/zod-validator':
-        specifier: ^0.7.3
+        specifier: ^0.7.4
         version: 0.7.4(hono@4.9.11)(zod@4.1.12)
       '@prisma/client':
         specifier: ^6.17.0
