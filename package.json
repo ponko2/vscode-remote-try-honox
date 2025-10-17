@@ -28,7 +28,7 @@
     "tailwindcss": "4.1.14",
     "typescript": "5.9.3",
     "vite": "7.1.9",
-    "wrangler": "4.42.2"
+    "wrangler": "4.43.0"
   },
   "packageManager": "pnpm@10.18.2",
   "private": true,
