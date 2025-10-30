@@ -17,5 +17,10 @@
         "useJsxKeyInIterable": "off"
       }
     }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
   }
 }
