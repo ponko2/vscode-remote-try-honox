@@ -24,8 +24,8 @@ importers:
         specifier: ^4.10.3
         version: 4.10.3
       honox:
-        specifier: ^0.1.49
-        version: 0.1.49(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))
+        specifier: ^0.1.50
+        version: 0.1.51(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -633,19 +633,6 @@ packages:
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
-
-  '@hono/vite-dev-server@0.20.1':
-    resolution: {integrity: sha512-wXikV0C5tPqwH6udA68VTsmnFKWGhIeBuhuxgdGDQIbVNbv5gD0vqKLhx4nG1o4dhksaWPiiSqZV58sTKUzNxA==}
-    engines: {node: '>=18.14.1'}
-    peerDependencies:
-      hono: '*'
-      miniflare: '*'
-      wrangler: '*'
-    peerDependenciesMeta:
-      miniflare:
-        optional: true
-      wrangler:
-        optional: true
 
   '@hono/vite-dev-server@0.23.0':
     resolution: {integrity: sha512-tHV86xToed9Up0j/dubQW2PDP4aYNFDSfQrjcV6Ra7bqCGrxhtg/zZBmbgSco3aTxKOEPzDXKK+6seAAfsbIXw==}
@@ -1817,8 +1804,8 @@ packages:
     resolution: {integrity: sha512-2LOYWUbnhdxdL8MNbNg9XZig6k+cZXm5IjHn2Aviv7honhBMOHb+jxrKIeJRZJRmn+htUCKhaicxwXuUDlchRA==}
     engines: {node: '>=16.9.0'}
 
-  honox@0.1.49:
-    resolution: {integrity: sha512-oEM+Xw5r4/7Htz1gXA+0XO5aJ65xrYn+V+IzNOsKU7VCJEDXV3cmnFc/EKplXXJiMXuqz6wCH7rr/LPHGwg1rA==}
+  honox@0.1.51:
+    resolution: {integrity: sha512-lNHVH2zW/9oU43DXJLuxOo/+vL3tNGCFQvfzputwCQZ9Q/TIvE/gObVAd9PnoIqnmP5yvlMSMK5V76ZippZYbg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '>=4.*'
@@ -3000,7 +2987,7 @@ snapshots:
 
   '@babel/generator@7.25.6':
     dependencies:
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 2.5.2
@@ -3011,7 +2998,7 @@ snapshots:
 
   '@babel/parser@7.25.6':
     dependencies:
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
 
   '@babel/parser@7.28.5':
     dependencies:
@@ -3027,9 +3014,9 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/generator': 7.25.6
-      '@babel/parser': 7.25.6
+      '@babel/parser': 7.28.5
       '@babel/template': 7.27.2
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
       debug: 4.4.3
       globals: 11.12.0
     transitivePeerDependencies:
@@ -3392,15 +3379,6 @@ snapshots:
   '@hono/vite-build@1.7.0(hono@4.10.3)':
     dependencies:
       hono: 4.10.3
-
-  '@hono/vite-dev-server@0.20.1(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))':
-    dependencies:
-      '@hono/node-server': 1.19.5(hono@4.10.3)
-      hono: 4.10.3
-      minimatch: 9.0.5
-    optionalDependencies:
-      miniflare: 4.20251011.1
-      wrangler: 4.45.2(@cloudflare/workers-types@4.20251014.0)
 
   '@hono/vite-dev-server@0.23.0(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))':
     dependencies:
@@ -4643,13 +4621,13 @@ snapshots:
 
   hono@4.10.3: {}
 
-  honox@0.1.49(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0)):
+  honox@0.1.51(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.20.1(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))
+      '@hono/vite-dev-server': 0.23.0(hono@4.10.3)(miniflare@4.20251011.1)(wrangler@4.45.2(@cloudflare/workers-types@4.20251014.0))
       hono: 4.10.3
       jsonc-parser: 3.3.1
       precinct: 12.2.0
