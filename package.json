@@ -2,7 +2,7 @@
   "name": "vscode-remote-try-honox",
   "version": "0.1.0",
   "dependencies": {
-    "@hono/zod-validator": "^0.7.4",
+    "@hono/zod-validator": "^0.7.5",
     "@prisma/client": "^6.19.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
