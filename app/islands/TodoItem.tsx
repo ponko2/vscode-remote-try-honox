@@ -1,6 +1,6 @@
-import type { Todo } from "@prisma/client";
 import { cva } from "class-variance-authority";
 import { useEffect, useId, useRef, useState } from "hono/jsx";
+import type { Todo } from "../generated/prisma/client";
 import { cn } from "../lib/utils";
 import TodoButton from "./TodoButton";
 
@@ -75,7 +75,7 @@ function ToggleForm({
       <label
         for={id}
         class={cn(
-          "block h-full break-words bg-unchecked bg-left bg-no-repeat py-4 pl-14 pr-4 font-normal leading-tight text-neutral-700 transition-colors duration-500",
+          "block h-full wrap-break-word bg-unchecked bg-left bg-no-repeat py-4 pl-14 pr-4 font-normal leading-tight text-neutral-700 transition-colors duration-500",
           "peer-checked:bg-checked peer-checked:text-neutral-400 peer-checked:line-through",
           "peer-focus:shadow-sm peer-focus:shadow-red-400 peer-focus:outline-hidden",
         )}

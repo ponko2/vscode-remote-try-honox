@@ -1,3 +1,4 @@
+import "@dotenvx/dotenvx/config";
 import { showRoutes } from "hono/dev";
 import { createApp } from "honox/server";
 
