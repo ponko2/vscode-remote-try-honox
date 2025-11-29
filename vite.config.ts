@@ -6,7 +6,11 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   ssr: {
-    external: ["@prisma/client"],
+    external: [
+      "@dotenvx/dotenvx",
+      "@prisma/adapter-better-sqlite3",
+      "@prisma/client",
+    ],
   },
   plugins: [
     tailwindcss(),

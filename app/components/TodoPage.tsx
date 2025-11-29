@@ -1,4 +1,4 @@
-import type { Todo } from "@prisma/client";
+import type { Todo } from "../generated/prisma/client";
 import { cn } from "../lib/utils";
 import TodoFooter from "./TodoFooter";
 import TodoHeader from "./TodoHeader";
