@@ -32,6 +32,13 @@
     "vite": "7.2.6",
     "wrangler": "4.52.1"
   },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.11.1",
+      "onFail": "download"
+    }
+  },
   "packageManager": "pnpm@10.24.0",
   "private": true,
   "scripts": {
