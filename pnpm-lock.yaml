@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@dotenvx/dotenvx':
-        specifier: ^1.51.1
+        specifier: ^1.51.2
         version: 1.51.2
       '@hono/zod-validator':
         specifier: ^0.7.5
