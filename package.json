@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@dotenvx/dotenvx": "^1.51.2",
-    "@hono/zod-validator": "^0.7.5",
+    "@hono/zod-validator": "^0.7.6",
     "@prisma/adapter-better-sqlite3": "^7.2.0",
     "@prisma/client": "^7.2.0",
     "class-variance-authority": "^0.7.1",
