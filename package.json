@@ -22,8 +22,7 @@
     "@hono/vite-dev-server": "0.23.0",
     "@tailwindcss/vite": "4.1.18",
     "@tsconfig/strictest": "2.0.8",
-    "husky": "9.1.7",
-    "lint-staged": "16.2.7",
+    "lefthook": "2.0.13",
     "npm-run-all2": "8.0.4",
     "prisma": "7.2.0",
     "prisma-case-format": "2.2.1",
@@ -51,7 +50,6 @@
     "fix:prisma-case": "prisma-case-format --file prisma/schema.prisma",
     "generate": "prisma generate",
     "lint": "biome check",
-    "prepare": "node .husky/install.mjs",
     "preview": "wrangler dev",
     "setup": "corepack enable pnpm",
     "typecheck": "tsc --noEmit"
