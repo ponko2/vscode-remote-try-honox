@@ -4,6 +4,8 @@
     "Prisma.prisma",
     "biomejs.biome",
     "bradlc.vscode-tailwindcss",
+    "jnoortheen.nix-ide",
+    "mkhl.direnv",
     "ms-vscode-remote.vscode-remote-extensionpack"
   ]
 }
