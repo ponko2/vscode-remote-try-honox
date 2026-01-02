@@ -2,7 +2,7 @@
   "name": "vscode-remote-try-honox",
   "version": "0.1.0",
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.51.2",
+    "@dotenvx/dotenvx": "^1.51.4",
     "@hono/zod-validator": "^0.7.6",
     "@prisma/adapter-better-sqlite3": "^7.2.0",
     "@prisma/client": "^7.2.0",
