@@ -30,8 +30,8 @@ importers:
         specifier: ^4.11.3
         version: 4.11.3
       honox:
-        specifier: ^0.1.52
-        version: 0.1.52(hono@4.11.3)(miniflare@4.20251217.0)(wrangler@4.56.0(@cloudflare/workers-types@4.20260101.0))
+        specifier: ^0.1.53
+        version: 0.1.53(hono@4.11.3)(miniflare@4.20251217.0)(wrangler@4.56.0(@cloudflare/workers-types@4.20260101.0))
       tailwind-merge:
         specifier: ^3.4.0
         version: 3.4.0
@@ -1952,8 +1952,8 @@ packages:
     resolution: {integrity: sha512-PmQi306+M/ct/m5s66Hrg+adPnkD5jiO6IjA7WhWw0gSBSo1EcRegwuI1deZ+wd5pzCGynCcn2DprnE4/yEV4w==}
     engines: {node: '>=16.9.0'}
 
-  honox@0.1.52:
-    resolution: {integrity: sha512-AGO7Kc0X5A7wK0k07Crl5Tw6ajM9Btn2KLvs5D6jIGQGkIKVv/g+M+CnEdcoU3fo0cYUepmMOXb4HQvahrNF+Q==}
+  honox@0.1.53:
+    resolution: {integrity: sha512-cVd5RErXH5gHamGc29+pvFFJ54b051Q/hOShSDWsNjRkZ2TcbawlDzgbD9htiC0lFgYCuo14DUhb4pdB5FERig==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '>=4.*'
@@ -3358,7 +3358,7 @@ snapshots:
 
   '@babel/generator@7.25.6':
     dependencies:
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 2.5.2
@@ -3369,7 +3369,7 @@ snapshots:
 
   '@babel/parser@7.25.6':
     dependencies:
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
 
   '@babel/parser@7.28.5':
     dependencies:
@@ -3385,9 +3385,9 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/generator': 7.25.6
-      '@babel/parser': 7.25.6
+      '@babel/parser': 7.28.5
       '@babel/template': 7.27.2
-      '@babel/types': 7.25.6
+      '@babel/types': 7.28.5
       debug: 4.4.3
       globals: 11.12.0
     transitivePeerDependencies:
@@ -5152,7 +5152,7 @@ snapshots:
 
   hono@4.11.3: {}
 
-  honox@0.1.52(hono@4.11.3)(miniflare@4.20251217.0)(wrangler@4.56.0(@cloudflare/workers-types@4.20260101.0)):
+  honox@0.1.53(hono@4.11.3)(miniflare@4.20251217.0)(wrangler@4.56.0(@cloudflare/workers-types@4.20260101.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
