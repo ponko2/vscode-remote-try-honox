@@ -13,7 +13,7 @@ importers:
         version: 1.51.4
       '@hono/zod-validator':
         specifier: ^0.7.6
-        version: 0.7.6(hono@4.11.3)(zod@4.3.5)
+        version: 0.7.6(hono@4.11.4)(zod@4.3.5)
       '@prisma/adapter-better-sqlite3':
         specifier: ^7.2.0
         version: 7.2.0
@@ -28,10 +28,10 @@ importers:
         version: 2.1.1
       hono:
         specifier: ^4.11.3
-        version: 4.11.3
+        version: 4.11.4
       honox:
         specifier: ^0.1.53
-        version: 0.1.53(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
+        version: 0.1.53(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
       tailwind-merge:
         specifier: ^3.4.0
         version: 3.4.0
@@ -53,10 +53,10 @@ importers:
         version: 20.3.1
       '@hono/vite-build':
         specifier: 1.8.0
-        version: 1.8.0(hono@4.11.3)
+        version: 1.8.0(hono@4.11.4)
       '@hono/vite-dev-server':
         specifier: 0.24.0
-        version: 0.24.0(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
+        version: 0.24.0(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
       '@tailwindcss/vite':
         specifier: 4.1.18
         version: 4.1.18(vite@7.3.1(@types/node@25.0.6)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -68,7 +68,7 @@ importers:
         version: 2.0.13
       node:
         specifier: runtime:^24.11.1
-        version: runtime:24.12.0
+        version: runtime:24.13.0
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -1965,8 +1965,8 @@ packages:
     resolution: {integrity: sha512-BIdolzGpDO9MQ4nu3AUuDwHZZ+KViNm+EZ75Ae55eMXMqLVhDFqEMXxtUe9Qh8hjL+pIna/frs2j6Y2yD5Ua/g==}
     engines: {node: '>=16.9.0'}
 
-  hono@4.11.3:
-    resolution: {integrity: sha512-PmQi306+M/ct/m5s66Hrg+adPnkD5jiO6IjA7WhWw0gSBSo1EcRegwuI1deZ+wd5pzCGynCcn2DprnE4/yEV4w==}
+  hono@4.11.4:
+    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
     engines: {node: '>=16.9.0'}
 
   honox@0.1.53:
@@ -2486,94 +2486,94 @@ packages:
     resolution: {integrity: sha512-3VW/8JpPqPvnJvseXowjZcirPisssnBuDikk6JIZ8jQzF7KJQX52iPFX4RYYxLycYH7IbMRSPUOga/esVjy5Yg==}
     engines: {node: '>=18'}
 
-  node@runtime:24.12.0:
+  node@runtime:24.13.0:
     resolution:
       type: variations
       variants:
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-MfPQZbuE8GnlIuVdDTA1vTZMul2KIiM/9oAF0oHou3g=
+            integrity: sha256-rCHprwik1UsFfYAMA7yVMilGlSuNqoEcramL+2aozo8=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-aix-ppc64.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-aix-ppc64.tar.gz
           targets:
             - cpu: ppc64
               os: aix
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-MZ8iGtxeRP8O1X6KRBsihPArjcb8h7jrkqapNkP9gIA=
+            integrity: sha256-1ZWWHlY/yuBX1KD7mS8XWlTZf8xKFNwtR02S3e6jufg=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-darwin-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-darwin-arm64.tar.gz
           targets:
             - cpu: arm64
               os: darwin
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-uC6kxi/QjiUMq1nWJeddd8xbCj1gxmmOvuRUXIihacU=
+            integrity: sha256-bwPBtI3b4bEppvgDi+COCJnwXxcYW00+Q1AYCrZpp/M=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-darwin-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-darwin-x64.tar.gz
           targets:
             - cpu: x64
               os: darwin
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-myou65io6zc2EiTiodBgMArS3RQ69Y39sW3nhd8PEig=
+            integrity: sha256-D21AuUxqLra0wkD/yLn9Otp6sETBd91BPAbh75pj8IE=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-linux-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-linux-arm64.tar.gz
           targets:
             - cpu: arm64
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-Zux5tNZPQQmu34IhCHFdC2CXEY35FZwvYyFHfaTqF6o=
+            integrity: sha256-GAEZMLGCocW0nSMmGR/bpYJwvfe0W4x9+FXvMZMbFIo=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-linux-ppc64le.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-linux-ppc64le.tar.gz
           targets:
             - cpu: ppc64le
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-jclgolVdsap3/RMcJb5XG594RLyLJ454cyufWA/n1YA=
+            integrity: sha256-V0RhC2JPLoKuHKJ52OznuMpGZDcjlTPS0DNWUwO8HTk=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-linux-s390x.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-linux-s390x.tar.gz
           targets:
             - cpu: s390x
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-YVkifgr318PGuy+pAEUrBKbLiEGnAqeazGEyCdcLBNA=
+            integrity: sha256-YiOq0agfnR57aCxZ0S4t4jP3tMN0dc1A0cicQrc3/6g=
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-linux-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-linux-x64.tar.gz
           targets:
             - cpu: x64
               os: linux
         - resolution:
             archive: zip
             bin: node.exe
-            integrity: sha256-sF5+Bm+BPTWtPNnCTu2u4HTAEqx+AAcSl2CP3S6UiuM=
-            prefix: node-v24.12.0-win-arm64
+            integrity: sha256-krn5sMDBI+EeSvxTXw7BnNmHRl7qUGQnVTpJlxNkFYo=
+            prefix: node-v24.13.0-win-arm64
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-win-arm64.zip
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-win-arm64.zip
           targets:
             - cpu: arm64
               os: win32
         - resolution:
             archive: zip
             bin: node.exe
-            integrity: sha256-nBJfYa6Ue1LneQlYMPnKwmeEagQ+9xkhg8hAFqqtKBI=
-            prefix: node-v24.12.0-win-x64
+            integrity: sha256-yidCaVvo3kQCfXGz9TpL2zYAm5VXX+Gub38LXOCRy4g=
+            prefix: node-v24.13.0-win-x64
             type: binary
-            url: https://nodejs.org/download/release/v24.12.0/node-v24.12.0-win-x64.zip
+            url: https://nodejs.org/download/release/v24.13.0/node-v24.13.0-win-x64.zip
           targets:
             - cpu: x64
               os: win32
-    version: 24.12.0
+    version: 24.13.0
     hasBin: true
 
   normalize-package-data@2.5.0:
@@ -3807,35 +3807,35 @@ snapshots:
     dependencies:
       hono: 4.10.6
 
-  '@hono/node-server@1.19.8(hono@4.11.3)':
+  '@hono/node-server@1.19.8(hono@4.11.4)':
     dependencies:
-      hono: 4.11.3
+      hono: 4.11.4
 
-  '@hono/vite-build@1.8.0(hono@4.11.3)':
+  '@hono/vite-build@1.8.0(hono@4.11.4)':
     dependencies:
-      hono: 4.11.3
+      hono: 4.11.4
 
-  '@hono/vite-dev-server@0.23.0(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))':
+  '@hono/vite-dev-server@0.23.0(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))':
     dependencies:
-      '@hono/node-server': 1.19.8(hono@4.11.3)
-      hono: 4.11.3
+      '@hono/node-server': 1.19.8(hono@4.11.4)
+      hono: 4.11.4
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 4.20260107.0
       wrangler: 4.58.0(@cloudflare/workers-types@4.20260109.0)
 
-  '@hono/vite-dev-server@0.24.0(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))':
+  '@hono/vite-dev-server@0.24.0(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))':
     dependencies:
-      '@hono/node-server': 1.19.8(hono@4.11.3)
-      hono: 4.11.3
+      '@hono/node-server': 1.19.8(hono@4.11.4)
+      hono: 4.11.4
       minimatch: 9.0.5
     optionalDependencies:
       miniflare: 4.20260107.0
       wrangler: 4.58.0(@cloudflare/workers-types@4.20260109.0)
 
-  '@hono/zod-validator@0.7.6(hono@4.11.3)(zod@4.3.5)':
+  '@hono/zod-validator@0.7.6(hono@4.11.4)(zod@4.3.5)':
     dependencies:
-      hono: 4.11.3
+      hono: 4.11.4
       zod: 4.3.5
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -5175,16 +5175,16 @@ snapshots:
 
   hono@4.10.6: {}
 
-  hono@4.11.3: {}
+  hono@4.11.4: {}
 
-  honox@0.1.53(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0)):
+  honox@0.1.53(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0)):
     dependencies:
       '@babel/generator': 7.25.6
       '@babel/parser': 7.25.6
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
-      '@hono/vite-dev-server': 0.23.0(hono@4.11.3)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
-      hono: 4.11.3
+      '@hono/vite-dev-server': 0.23.0(hono@4.11.4)(miniflare@4.20260107.0)(wrangler@4.58.0(@cloudflare/workers-types@4.20260109.0))
+      hono: 4.11.4
       jsonc-parser: 3.3.1
       precinct: 12.2.0
     optionalDependencies:
@@ -5593,7 +5593,7 @@ snapshots:
     dependencies:
       '@babel/parser': 7.28.5
 
-  node@runtime:24.12.0: {}
+  node@runtime:24.13.0: {}
 
   normalize-package-data@2.5.0:
     dependencies:
