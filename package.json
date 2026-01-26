@@ -18,7 +18,7 @@
     "@cloudflare/workers-types": "4.20260120.0",
     "@commitlint/cli": "20.3.1",
     "@commitlint/config-conventional": "20.3.1",
-    "@hono/vite-build": "1.9.1",
+    "@hono/vite-build": "1.9.2",
     "@hono/vite-dev-server": "0.24.1",
     "@tailwindcss/vite": "4.1.18",
     "@tsconfig/strictest": "2.0.8",
