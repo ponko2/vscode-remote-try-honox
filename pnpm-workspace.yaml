@@ -12,3 +12,6 @@ onlyBuiltDependencies:
   - workerd
 
 scriptsPrependNodePath: true
+minimumReleaseAgeExclude:
+  # Renovate security update: hono@4.11.7
+  - hono@4.11.7
