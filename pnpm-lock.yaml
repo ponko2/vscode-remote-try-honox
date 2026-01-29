@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dotenvx/dotenvx':
-        specifier: ^1.51.4
-        version: 1.51.4
+        specifier: ^1.52.0
+        version: 1.52.0
       '@hono/zod-validator':
         specifier: ^0.7.6
         version: 0.7.6(hono@4.11.7)(zod@4.3.6)
@@ -331,8 +331,8 @@ packages:
     resolution: {integrity: sha512-Y6+WUMsTFWE5jb20IFP4YGa5IrGY/+a/FbOSjDF/wz9gepU2hwCYSXRHP/vPwBvwcY3SVMASt4yXxbXNXigmZQ==}
     engines: {node: '>=18'}
 
-  '@dotenvx/dotenvx@1.51.4':
-    resolution: {integrity: sha512-AoziS8lRQ3ew/lY5J4JSlzYSN9Fo0oiyMBY37L3Bwq4mOQJT5GSrdZYLFPt6pH1LApDI3ZJceNyx+rHRACZSeQ==}
+  '@dotenvx/dotenvx@1.52.0':
+    resolution: {integrity: sha512-CaQcc8JvtzQhUSm9877b6V4Tb7HCotkcyud9X2YwdqtQKwgljkMRwU96fVYKnzN3V0Hj74oP7Es+vZ0mS+Aa1w==}
     hasBin: true
 
   '@ecies/ciphers@0.2.5':
@@ -3612,7 +3612,7 @@ snapshots:
       gonzales-pe: 4.3.0
       node-source-walk: 7.0.1
 
-  '@dotenvx/dotenvx@1.51.4':
+  '@dotenvx/dotenvx@1.52.0':
     dependencies:
       commander: 11.1.0
       dotenv: 17.2.3
