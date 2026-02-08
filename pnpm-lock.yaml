@@ -55,8 +55,8 @@ importers:
         specifier: 1.9.2
         version: 1.9.2(hono@4.11.7)
       '@hono/vite-dev-server':
-        specifier: 0.24.1
-        version: 0.24.1(hono@4.11.7)(miniflare@4.20260131.0)(wrangler@4.62.0(@cloudflare/workers-types@4.20260205.0))
+        specifier: 0.25.0
+        version: 0.25.0(hono@4.11.7)(miniflare@4.20260131.0)(wrangler@4.62.0(@cloudflare/workers-types@4.20260205.0))
       '@tailwindcss/vite':
         specifier: 4.1.18
         version: 4.1.18(vite@7.3.1(@types/node@25.1.0)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -695,8 +695,8 @@ packages:
       wrangler:
         optional: true
 
-  '@hono/vite-dev-server@0.24.1':
-    resolution: {integrity: sha512-1ga1v9awRuYgs/C2/nhnOiAUeB3zPI/rEbfXkow7kOSHa8AYxxveDSpVsMZneE3ojwgkXQl2G68S+xj2WqxWPw==}
+  '@hono/vite-dev-server@0.25.0':
+    resolution: {integrity: sha512-4j5rs7yUTOObU2/yCEHeWbf3C8m95SD9lhdUUE6CJ462Emp9vS94yiza2dsA8+ly5pdaIQW0cd4nhNVcwYL5tA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -3760,7 +3760,7 @@ snapshots:
       miniflare: 4.20260131.0
       wrangler: 4.62.0(@cloudflare/workers-types@4.20260205.0)
 
-  '@hono/vite-dev-server@0.24.1(hono@4.11.7)(miniflare@4.20260131.0)(wrangler@4.62.0(@cloudflare/workers-types@4.20260205.0))':
+  '@hono/vite-dev-server@0.25.0(hono@4.11.7)(miniflare@4.20260131.0)(wrangler@4.62.0(@cloudflare/workers-types@4.20260205.0))':
     dependencies:
       '@hono/node-server': 1.19.9(hono@4.11.7)
       hono: 4.11.7
