@@ -27,7 +27,7 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       hono:
-        specifier: ^4.11.7
+        specifier: ^4.11.8
         version: 4.11.8
       honox:
         specifier: ^0.1.53
