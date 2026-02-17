@@ -24,7 +24,7 @@
     "@tsconfig/strictest": "2.0.8",
     "lefthook": "2.1.1",
     "npm-run-all2": "8.0.4",
-    "prisma": "7.3.0",
+    "prisma": "7.4.0",
     "prisma-case-format": "2.2.1",
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
