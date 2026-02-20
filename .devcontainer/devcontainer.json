@@ -31,10 +31,10 @@
       "extensions": [
         "EditorConfig.EditorConfig",
         "Prisma.prisma",
-        "biomejs.biome",
         "bradlc.vscode-tailwindcss",
         "jnoortheen.nix-ide",
-        "mkhl.direnv"
+        "mkhl.direnv",
+        "oxc.oxc-vscode"
       ]
     }
   }
