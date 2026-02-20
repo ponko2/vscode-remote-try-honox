@@ -1,6 +1,6 @@
 name = "vscode-remote-try-honox"
 compatibility_date = "2024-04-01"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "./dist"
 
 # [vars]

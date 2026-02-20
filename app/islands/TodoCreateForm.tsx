@@ -12,10 +12,7 @@ export default function TodoCreateForm() {
           "focus:shadow-sm focus:shadow-red-400 focus:outline-hidden",
         )}
         onKeyDown={(event) => {
-          if (
-            event.key === "Enter" &&
-            event.currentTarget instanceof HTMLInputElement
-          ) {
+          if (event.key === "Enter" && event.currentTarget instanceof HTMLInputElement) {
             event.preventDefault();
             event.currentTarget.form?.requestSubmit();
           }

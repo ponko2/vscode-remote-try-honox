@@ -1,6 +1,7 @@
 import { zValidator } from "@hono/zod-validator";
 import { createRoute } from "honox/factory";
 import { z } from "zod";
+
 import { deleteTodo, updateTodo } from "../../models/todo";
 
 const paramSchema = z.object({
@@ -26,11 +27,8 @@ export const PUT = createRoute(
   },
 );
 
-export const DELETE = createRoute(
-  zValidator("param", paramSchema),
-  async (c) => {
-    const param = c.req.valid("param");
-    await deleteTodo(param);
-    return c.redirect(c.req.header("Referer") ?? "/");
-  },
-);
+export const DELETE = createRoute(zValidator("param", paramSchema), async (c) => {
+  const param = c.req.valid("param");
+  await deleteTodo(param);
+  return c.redirect(c.req.header("Referer") ?? "/");
+});
