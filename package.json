@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.2",
-    "@cloudflare/workers-types": "4.20260214.0",
+    "@cloudflare/workers-types": "4.20260217.0",
     "@commitlint/cli": "20.4.1",
     "@commitlint/config-conventional": "20.4.1",
     "@hono/vite-build": "1.9.3",
@@ -29,7 +29,7 @@
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
     "vite": "7.3.1",
-    "wrangler": "4.65.0"
+    "wrangler": "4.66.0"
   },
   "devEngines": {
     "runtime": {
