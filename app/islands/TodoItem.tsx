@@ -1,5 +1,6 @@
 import { cva } from "class-variance-authority";
 import { useEffect, useId, useRef, useState } from "hono/jsx";
+
 import type { Todo } from "../generated/prisma/client";
 import { cn } from "../lib/utils";
 import TodoButton from "./TodoButton";
@@ -8,9 +9,7 @@ interface Props {
   todo: Todo;
 }
 
-function UpdateForm({
-  todo,
-}: Props & { onEditChange: (edit: boolean) => void }) {
+function UpdateForm({ todo }: Props & { onEditChange: (edit: boolean) => void }) {
   const ref = useRef<HTMLInputElement>(null);
   useEffect(() => {
     ref.current?.focus();
@@ -18,9 +17,7 @@ function UpdateForm({
   return (
     <form method="post" action={`/todos/${todo.id}`}>
       <input type="hidden" name="_method" value="put" />
-      {todo.completed ? (
-        <input type="hidden" name="completed" value="on" />
-      ) : null}
+      {todo.completed ? <input type="hidden" name="completed" value="on" /> : null}
       <input
         type="text"
         name="title"
@@ -49,10 +46,7 @@ function UpdateForm({
   );
 }
 
-function ToggleForm({
-  todo,
-  onEditChange,
-}: Props & { onEditChange: (edit: boolean) => void }) {
+function ToggleForm({ todo, onEditChange }: Props & { onEditChange: (edit: boolean) => void }) {
   const id = useId();
   return (
     <form method="post" action={`/todos/${todo.id}`}>
@@ -110,7 +104,7 @@ function DeleteForm({ todo }: Props) {
 export default function TodoItem({ todo }: Props) {
   const [editing, setEditing] = useState(false);
 
-  const list = cva("relative text-2xl h-16", {
+  const list = cva("relative h-16 text-2xl", {
     variants: {
       intent: {
         primary: ["group"],

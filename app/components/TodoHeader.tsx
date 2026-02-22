@@ -14,9 +14,7 @@ export default function TodoHeader({ completedTodosCount, todosCount }: Props) {
         todos
       </h1>
       <TodoCreateForm />
-      {!!todosCount && (
-        <TodoToggleForm checked={completedTodosCount === todosCount} />
-      )}
+      {!!todosCount && <TodoToggleForm checked={completedTodosCount === todosCount} />}
     </header>
   );
 }

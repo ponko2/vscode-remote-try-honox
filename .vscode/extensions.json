@@ -2,10 +2,10 @@
   "recommendations": [
     "EditorConfig.EditorConfig",
     "Prisma.prisma",
-    "biomejs.biome",
     "bradlc.vscode-tailwindcss",
     "jnoortheen.nix-ide",
     "mkhl.direnv",
-    "ms-vscode-remote.vscode-remote-extensionpack"
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "oxc.oxc-vscode"
   ]
 }

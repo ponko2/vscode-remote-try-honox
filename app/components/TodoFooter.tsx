@@ -1,5 +1,6 @@
 import { cva } from "class-variance-authority";
 import { useRequestContext } from "hono/jsx-renderer";
+
 import TodoButton from "../islands/TodoButton";
 
 interface Props {
@@ -30,15 +31,7 @@ export default function TodoFooter({ completedTodosCount, todosCount }: Props) {
   const activeCount = todosCount - completedTodosCount;
 
   const link = cva(
-    [
-      "m-1",
-      "rounded-sm",
-      "border",
-      "px-2",
-      "py-1",
-      "no-underline",
-      "hover:border-red-400",
-    ],
+    ["m-1", "rounded-sm", "border", "px-2", "py-1", "no-underline", "hover:border-red-400"],
     {
       variants: {
         intent: {
@@ -64,9 +57,7 @@ export default function TodoFooter({ completedTodosCount, todosCount }: Props) {
           <li class="inline" key={href}>
             <a
               class={
-                c.req.path === href
-                  ? link({ intent: "active" })
-                  : link({ intent: "inactive" })
+                c.req.path === href ? link({ intent: "active" }) : link({ intent: "inactive" })
               }
               href={href}
             >

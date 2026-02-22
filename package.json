@@ -1,6 +1,24 @@
 {
   "name": "vscode-remote-try-honox",
   "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build --mode client && vite build",
+    "deploy": "$npm_execpath run build && wrangler deploy",
+    "dev": "vite",
+    "fix": "run-s fix:oxfmt fix:oxlint fix:prisma-case fix:prisma",
+    "fix:oxfmt": "oxfmt",
+    "fix:oxlint": "oxlint --deny-warnings --fix --type-aware --type-check",
+    "fix:prisma": "prisma format",
+    "fix:prisma-case": "prisma-case-format --file prisma/schema.prisma",
+    "generate": "prisma generate",
+    "lint": "run-p --aggregate-output -c -l lint:*",
+    "lint:oxfmt": "oxfmt --check",
+    "lint:oxlint": "oxlint --deny-warnings --type-aware --type-check",
+    "preview": "wrangler dev",
+    "setup": "corepack enable pnpm"
+  },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.52.0",
     "@hono/zod-validator": "^0.7.6",
@@ -14,7 +32,6 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.2",
     "@cloudflare/workers-types": "4.20260218.0",
     "@commitlint/cli": "20.4.1",
     "@commitlint/config-conventional": "20.4.1",
@@ -24,6 +41,9 @@
     "@tsconfig/strictest": "2.0.8",
     "lefthook": "2.1.1",
     "npm-run-all2": "8.0.4",
+    "oxfmt": "0.33.0",
+    "oxlint": "1.48.0",
+    "oxlint-tsgolint": "0.14.1",
     "prisma": "7.4.0",
     "prisma-case-format": "2.2.1",
     "tailwindcss": "4.1.18",
@@ -38,21 +58,5 @@
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@10.30.0",
-  "private": true,
-  "scripts": {
-    "build": "vite build --mode client && vite build",
-    "deploy": "$npm_execpath run build && wrangler deploy",
-    "dev": "vite",
-    "fix": "run-s fix:biome fix:prisma-case fix:prisma",
-    "fix:biome": "biome check --write",
-    "fix:prisma": "prisma format",
-    "fix:prisma-case": "prisma-case-format --file prisma/schema.prisma",
-    "generate": "prisma generate",
-    "lint": "biome check",
-    "preview": "wrangler dev",
-    "setup": "corepack enable pnpm",
-    "typecheck": "tsc --noEmit"
-  },
-  "type": "module"
+  "packageManager": "pnpm@10.30.0"
 }
