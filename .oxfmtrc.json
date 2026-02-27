@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "experimentalSortImports": {},
-  "experimentalTailwindcss": {
+  "ignorePatterns": ["app/generated/prisma/**/*"],
+  "sortImports": {},
+  "sortTailwindcss": {
     "functions": ["clsx", "cva"]
-  },
-  "ignorePatterns": ["app/generated/prisma/**/*"]
+  }
 }
