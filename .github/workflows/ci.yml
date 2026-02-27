@@ -88,6 +88,7 @@ jobs:
             oxlint:
               - *app
               - "**/*.{js,jsx,ts,tsx,mjs,cjs}"
+              - "**/.oxlintrc.json"
             prisma:
               - *common
               - *dependencies
