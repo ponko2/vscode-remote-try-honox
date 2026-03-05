@@ -39,7 +39,7 @@
     "@hono/vite-dev-server": "0.25.0",
     "@tailwindcss/vite": "4.2.1",
     "@tsconfig/strictest": "2.0.8",
-    "lefthook": "2.1.1",
+    "lefthook": "2.1.2",
     "npm-run-all2": "8.0.4",
     "oxfmt": "0.36.0",
     "oxlint": "1.51.0",
