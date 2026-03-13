@@ -36,8 +36,10 @@
     "builtin": true
   },
   "globals": {},
-  "ignorePatterns": [],
+  "ignorePatterns": ["app/generated/prisma/**/*"],
   "options": {
+    "denyWarnings": true,
+    "reportUnusedDisableDirectives": "error",
     "typeAware": true,
     "typeCheck": true
   }
