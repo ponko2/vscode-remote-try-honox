@@ -13,7 +13,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "oxc.typeAware": true,
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
