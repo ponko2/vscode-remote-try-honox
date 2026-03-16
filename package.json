@@ -22,8 +22,8 @@
   "dependencies": {
     "@dotenvx/dotenvx": "^1.54.1",
     "@hono/zod-validator": "^0.7.6",
-    "@prisma/adapter-better-sqlite3": "^7.4.2",
-    "@prisma/client": "^7.4.2",
+    "@prisma/adapter-better-sqlite3": "^7.5.0",
+    "@prisma/client": "^7.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "hono": "^4.12.7",
