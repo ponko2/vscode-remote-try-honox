@@ -20,7 +20,7 @@
     "setup": "corepack enable pnpm"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.54.1",
+    "@dotenvx/dotenvx": "^1.55.1",
     "@hono/zod-validator": "^0.7.6",
     "@prisma/adapter-better-sqlite3": "^7.5.0",
     "@prisma/client": "^7.5.0",
