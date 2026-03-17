@@ -44,7 +44,7 @@
     "oxfmt": "0.40.0",
     "oxlint": "1.55.0",
     "oxlint-tsgolint": "0.16.0",
-    "prisma": "7.4.2",
+    "prisma": "7.5.0",
     "prisma-case-format": "2.2.1",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
